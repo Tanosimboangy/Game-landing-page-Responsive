@@ -1,0 +1,23 @@
+{
+  "name": "game-landing-page-responsive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass scss -o webroot/css",
+    "css:watch": "npm run css && node-sass scss -w -o webroot/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanosimboangy/Game-landing-page-Responsive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanosimboangy/Game-landing-page-Responsive/issues"
+  },
+  "homepage": "https://github.com/Tanosimboangy/Game-landing-page-Responsive#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
