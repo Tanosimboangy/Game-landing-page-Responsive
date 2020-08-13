@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: brown;
     position: relative;
+    padding: 0;
 }
 
 ul {
@@ -13,4 +14,32 @@ li {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+h3 {
+    font-family: Bebas Neue;
+    font-size: 33px;
+    line-height: 33px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+h5 {
+    font-family: Bebas Neue;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.add {
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 3px;
+    border: none;
 }

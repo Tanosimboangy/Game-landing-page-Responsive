@@ -2,5 +2,29 @@ main > header {
     background-image: url("../img/bg1.png");
     background-repeat: no-repeat;
     padding-top: 9px;
+    max-width: fit-content;
+    text-align: center;
+    h3 {
+        padding-top: 179px;
+        margin: 0;
+    }
+    h5{
+        margin: 0;
+        padding-top: 7px;
+        max-width: 247px;
+        margin: auto;
+        padding-bottom: 12px;
+    }
+    .history_dropdown {
+        padding-top: 174px;
+    }
+    .history_dropdown {
+
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-bottom: 49px;
+    }
 }
+
+
 

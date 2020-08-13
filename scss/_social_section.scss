@@ -1,5 +1,14 @@
 section:first-of-type {
     background-image: url("../img/bg2.png");
-    background-size: contain;
     background-repeat: no-repeat;
+    h5 {
+        text-align: left;
+        padding-top: 48px;
+        padding-left: 14px;
+        padding-bottom: 5px;
+    }
+    h3 {
+        padding-left: 13px;
+        padding-bottom: 5px;
+    }
 }
