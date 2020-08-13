@@ -7,7 +7,9 @@ body > header {
   body > header form {
     position: absolute;
     top: 18px;
-    left: 130px; }
+    left: 180px; }
+  body > header .header_navigation {
+    display: none; }
   body > header svg {
     position: absolute;
     top: 18px;
@@ -25,7 +27,6 @@ main > header {
   main > header h5 {
     margin: 0;
     padding-top: 7px;
-    max-width: 247px;
     margin: auto;
     padding-bottom: 12px; }
   main > header .history_dropdown {
@@ -51,7 +52,6 @@ li {
   padding: 0; }
 
 h3 {
-  font-family: Bebas Neue;
   font-size: 33px;
   line-height: 33px;
   letter-spacing: 3px;

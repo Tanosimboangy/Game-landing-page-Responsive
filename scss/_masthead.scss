@@ -1,3 +1,5 @@
+@import "variable";
+
 main > header {
     background-image: url("../img/bg1.png");
     background-repeat: no-repeat;
@@ -11,7 +13,6 @@ main > header {
     h5{
         margin: 0;
         padding-top: 7px;
-        max-width: 247px;
         margin: auto;
         padding-bottom: 12px;
     }

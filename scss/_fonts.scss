@@ -1,0 +1,19 @@
+@import "variable";
+
+@font-face {
+  font-family: Bebas Neue;
+  font-weight: 700;
+  font-style: normal;
+  src: local(Bebas Neue),
+       url(../Webroot/fonts/AnyConv.com__BebasNeue-Regular.woff),
+       url(../Webroot/fonts/AnyConv.com__BebasNeue-Regular.woff2),
+}
+
+@font-face {
+  font-family:  Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  src: local( Open Sans),
+       url(../Webroot/fonts/AnyConv.com__OpenSans-Regular.woff),
+       url(../Webroot/fonts/AnyConv.com__OpenSans-Regular.woff2),
+}
