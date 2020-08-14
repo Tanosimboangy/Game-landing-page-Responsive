@@ -1,16 +1,52 @@
 @import "variable";
 
 section:first-of-type {
+    position: relative;
     background-image: url("../img/bg2.png");
     background-repeat: no-repeat;
+    background-size: cover;
     h5 {
         text-align: left;
         padding-top: 48px;
         padding-left: 14px;
         padding-bottom: 5px;
+        margin: -1px;
     }
     h3 {
         padding-left: 13px;
         padding-bottom: 5px;
+        margin: 0;
+    }
+    ul {
+        padding-left: 36px;
+        padding-top: 33px;
+        padding-right: 14px;
+        padding-bottom: 40px;
+        li {
+            p {
+                color: #FFFFFF;
+            }
+        }
+    }
+    .social1 {
+        position: absolute;
+        top: 379px;
+        z-index: 1;
+        left: calc(50% - 400px);
+        background-position: 0 0;
+    }
+    .social2 {
+        top: 379px;
+        position: absolute;
+        z-index: 2;
+        left: calc(50% - 400px);
+        background-position: 0 0;
+    }
+    .social3 {
+        top: 379px;
+        position: absolute;
+        left: calc(50% - 400px);
+        z-index: 3;
+        background-position: 0 0;
     }
 }

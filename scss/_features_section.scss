@@ -1,1 +1,23 @@
 @import "variable";
+
+section:nth-of-type(2) {
+    h5 {
+        text-align: center;
+        padding-top: 82px;
+        padding-left: 50px;
+        margin: 0;
+    }
+    h3 {
+        text-align: center;
+        padding-top: 5px;
+        padding-left: 50px;
+        padding-bottom: 18px;
+        margin: 0;
+    }
+    details {
+        text-align: center;
+        color: #FFFFFF;
+        left: calc(50% - 80px);
+        padding-right: 18px;
+    }
+}

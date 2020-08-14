@@ -9,3 +9,36 @@ $max-width:16px;
 $max-height: 16px;
 $max-width-cotainer: 1114px;
 $padding: 2px;
+
+$fonts: (
+  (
+    family: 'Open Sans',
+    filename: 'openSans',
+    weight: 400,
+    style: normal,
+  ),
+  (
+    family: 'Open Sans',
+    filename: 'openSans',
+    weight: 700,
+    style: normal,
+  ),
+  (
+    family: 'Bebas Neue',
+    filename: 'BebasNeue',
+    weight: 400,
+    style: normal,
+  ),
+);
+
+@each $font in $fonts {
+  @font-face {
+    font-family: map-get($font,  'family');
+    font-weight: map-get($font, 'weight');
+    font-style: map-get($font, 'style');
+    src: local(map-get($font, 'family'));
+    src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2),
+      url('./fonts/map-get($font, "filename")-regular.woff') format(woff);
+    font-style: map-get($font, 'normal');
+  }
+}
