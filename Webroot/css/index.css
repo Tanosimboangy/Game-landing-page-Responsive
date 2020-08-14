@@ -1,30 +1,26 @@
-body > header {
-  position: relative; }
-  body > header p {
-    position: absolute;
-    top: 3px;
-    left: 15px; }
-  body > header form {
-    position: absolute;
-    top: 18px;
-    left: 180px; }
-  body > header .header_navigation {
-    display: none; }
-  body > header svg {
-    position: absolute;
-    top: 18px;
-    left: 270px; }
+body > header .header_navigation {
+  display: none; }
+
+body > header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
 
 main > header {
   background-image: url("../img/bg1.png");
   background-repeat: no-repeat;
   padding-top: 9px;
-  max-width: fit-content;
+  background-size: cover;
   text-align: center; }
   main > header h3 {
+    font-family: Bebas Neu;
+    font-weight: 700;
     padding-top: 179px;
     margin: 0; }
   main > header h5 {
+    font-family: Bebas Neue;
+    font-weight: 700;
     margin: 0;
     padding-top: 7px;
     margin: auto;
@@ -87,3 +83,15 @@ section:first-of-type {
   section:first-of-type h3 {
     padding-left: 13px;
     padding-bottom: 5px; }
+
+@font-face {
+  font-family: Bebas Neue;
+  font-weight: 700;
+  font-style: normal;
+  src: local(Bebas Neue), url(../Webroot/fonts/AnyConv.com__BebasNeue-Regular.woff), url(../Webroot/fonts/AnyConv.com__BebasNeue-Regular.woff2); }
+
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  src: local(Open Sans), url(../Webroot/fonts/AnyConv.com__OpenSans-Regular.woff), url(../Webroot/fonts/AnyConv.com__OpenSans-Regular.woff2); }
