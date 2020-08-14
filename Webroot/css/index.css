@@ -1,11 +1,19 @@
-body > header .header_navigation {
-  display: none; }
-
-body > header div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center; }
+body > header {
+  position: relative; }
+  body > header .header_navigation {
+    display: none; }
+  body > header .head_logo {
+    position: absolute;
+    top: 0px;
+    left: 10px; }
+  body > header form {
+    position: absolute;
+    top: 18px;
+    left: 175px; }
+  body > header .menu {
+    position: absolute;
+    top: 18px;
+    left: 270px; }
 
 main > header {
   background-image: url("../img/bg1.png");
@@ -28,8 +36,10 @@ main > header {
   main > header .history_dropdown {
     padding-top: 174px; }
   main > header .history_dropdown {
+    text-align: left;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-left: 16px;
     padding-bottom: 49px; }
 
 body {

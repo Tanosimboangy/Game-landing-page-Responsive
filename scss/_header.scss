@@ -1,12 +1,23 @@
-
 body > header {
+    position: relative;
     .header_navigation {
         display: none;
+
     }
-    div {
-        display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    .head_logo {
+        position: absolute;
+        top: 0px;
+        left: 10px;
+    }
+    form {
+        position: absolute;
+        top: 18px;
+        left: 175px;
+    }
+    .menu {
+        position: absolute;
+        top: 18px;
+        // left: calc(50% - 400px);
+        left: 270px;
     }
 }
