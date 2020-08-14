@@ -231,24 +231,27 @@ section:first-of-type {
   src: local("Bebas Neue");
   src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
 
-section:nth-of-type(2) h5 {
-  text-align: center;
-  padding-top: 82px;
-  padding-left: 50px;
-  margin: 0; }
-
-section:nth-of-type(2) h3 {
-  text-align: center;
-  padding-top: 5px;
-  padding-left: 50px;
-  padding-bottom: 18px;
-  margin: 0; }
-
-section:nth-of-type(2) details {
-  text-align: center;
-  color: #FFFFFF;
-  left: calc(50% - 80px);
-  padding-right: 18px; }
+section:nth-of-type(2) {
+  background-image: url("../img/bg3.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  section:nth-of-type(2) h5 {
+    text-align: center;
+    padding-top: 82px;
+    padding-left: 50px;
+    margin: 0; }
+  section:nth-of-type(2) h3 {
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-bottom: 18px;
+    margin: 0; }
+  section:nth-of-type(2) details {
+    text-align: center;
+    color: #FFFFFF;
+    left: calc(50% - 80px);
+    padding-right: 18px;
+    margin: 0; }
 
 @font-face {
   font-family: "Open Sans";
