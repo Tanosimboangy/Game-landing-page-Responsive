@@ -15,43 +15,20 @@ body > header {
     top: 18px;
     left: 270px; }
 
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Bebas Neue";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Bebas Neue");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
 main > header {
-  background-image: url("../img/bg1.png");
-  background-repeat: no-repeat;
-  padding-top: 9px;
-  background-size: cover;
   text-align: center; }
   main > header h3 {
-    font-family: "Bebas Neu";
+    font-family: "Bebas Neue";
     padding-top: 179px;
     margin: 0; }
   main > header h5 {
-    font-family: Bebas Neue;
+    font-family: "Bebas Neue";
     margin: 0;
     padding-top: 7px;
     margin: auto;
     padding-bottom: 12px; }
+  main > header p {
+    font-family: "Open Sans"; }
   main > header .history_dropdown {
     padding-top: 174px; }
   main > header .history_dropdown {
@@ -61,49 +38,8 @@ main > header {
     padding-left: 16px;
     padding-bottom: 49px; }
 
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Bebas Neue";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Bebas Neue");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Bebas Neue";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Bebas Neue");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
 body {
+  font-family: "Open Sans";
   margin: 0;
   background-color: brown;
   position: relative;
@@ -119,6 +55,7 @@ li {
   padding: 0; }
 
 h3 {
+  font-family: "Bebas Neue";
   font-size: 33px;
   line-height: 33px;
   letter-spacing: 3px;
@@ -126,7 +63,7 @@ h3 {
   color: #FFFFFF; }
 
 h5 {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   font-size: 18px;
   line-height: 18px;
   text-align: center;
@@ -148,203 +85,84 @@ h5 {
     max-width: 1060px;
     margin: auto; } }
 
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
+section:first-of-type h5 {
+  text-align: left;
+  padding-top: 48px;
+  padding-left: 14px;
+  padding-bottom: 5px;
+  margin: -1px; }
 
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
+section:first-of-type h3 {
+  padding-left: 13px;
+  padding-bottom: 5px;
+  margin: 0; }
+
+section:first-of-type ul {
+  padding-left: 36px;
+  padding-top: 33px;
+  padding-right: 14px;
+  padding-bottom: 40px; }
+  section:first-of-type ul li p {
+    color: #FFFFFF; }
+
+section:first-of-type .social1 {
+  position: absolute;
+  top: 379px;
+  z-index: 1;
+  left: calc(50% - 400px);
+  background-position: 0 0; }
+
+section:first-of-type .social2 {
+  top: 379px;
+  position: absolute;
+  z-index: 2;
+  left: calc(50% - 400px);
+  background-position: 0 0; }
+
+section:first-of-type .social3 {
+  top: 379px;
+  position: absolute;
+  left: calc(50% - 400px);
+  z-index: 3;
+  background-position: 0 0; }
+
+section:nth-of-type(2) h5 {
+  text-align: center;
+  padding-top: 82px;
+  padding-left: 50px;
+  margin: 0; }
+
+section:nth-of-type(2) h3 {
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 25px;
+  padding-bottom: 18px;
+  margin: 0; }
+
+section:nth-of-type(2) details {
+  text-align: left;
+  color: #FFFFFF;
+  padding-left: 110px;
+  padding-right: 18px;
+  margin: 0; }
+
+section:nth-of-type(3) h5 {
+  font-family: "Bebas Neue";
+  padding-top: 68px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: #FFFFFF; }
 
 @font-face {
   font-family: "Bebas Neue";
-  font-weight: 400;
   font-style: normal;
-  src: local("Bebas Neue");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-section:first-of-type {
-  position: relative;
-  background-image: url("../img/bg2.png");
-  background-repeat: no-repeat;
-  background-size: cover; }
-  section:first-of-type h5 {
-    text-align: left;
-    padding-top: 48px;
-    padding-left: 14px;
-    padding-bottom: 5px;
-    margin: -1px; }
-  section:first-of-type h3 {
-    padding-left: 13px;
-    padding-bottom: 5px;
-    margin: 0; }
-  section:first-of-type ul {
-    padding-left: 36px;
-    padding-top: 33px;
-    padding-right: 14px;
-    padding-bottom: 40px; }
-    section:first-of-type ul li p {
-      color: #FFFFFF; }
-  section:first-of-type .social1 {
-    position: absolute;
-    top: 379px;
-    z-index: 1;
-    left: calc(50% - 400px);
-    background-position: 0 0; }
-  section:first-of-type .social2 {
-    top: 379px;
-    position: absolute;
-    z-index: 2;
-    left: calc(50% - 400px);
-    background-position: 0 0; }
-  section:first-of-type .social3 {
-    top: 379px;
-    position: absolute;
-    left: calc(50% - 400px);
-    z-index: 3;
-    background-position: 0 0; }
+  font-weight: 400;
+  src: local("Bebas Neue"), url(../fonts/AnyConv.com__BebasNeue-Regular.woff2), url(../fonts/AnyConv.com__BebasNeue-Regular.woff); }
 
 @font-face {
   font-family: "Open Sans";
+  font-style: normal;
   font-weight: 400;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Bebas Neue";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Bebas Neue");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-section:nth-of-type(2) {
-  background-image: url("../img/bg3.png");
-  background-repeat: no-repeat;
-  background-size: cover; }
-  section:nth-of-type(2) h5 {
-    text-align: center;
-    padding-top: 82px;
-    padding-left: 50px;
-    margin: 0; }
-  section:nth-of-type(2) h3 {
-    text-align: center;
-    padding-top: 5px;
-    padding-left: 50px;
-    padding-bottom: 18px;
-    margin: 0; }
-  section:nth-of-type(2) details {
-    text-align: center;
-    color: #FFFFFF;
-    left: calc(50% - 80px);
-    padding-right: 18px;
-    margin: 0; }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Bebas Neue";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Bebas Neue");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Bebas Neue";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Bebas Neue");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Bebas Neue";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Bebas Neue");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-style: normal;
-  src: local("Open Sans");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: "Bebas Neue";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Bebas Neue");
-  src: url('./fonts/map-get($font, "filename")-regular.woff2') format(woff2), url('./fonts/map-get($font, "filename")-regular.woff') format(woff); }
-
-@font-face {
-  font-family: Bebas Neue;
-  font-weight: 700;
-  font-style: normal;
-  src: local(Bebas Neue), url(../Webroot/fonts/AnyConv.com__BebasNeue-Regular.woff), url(../Webroot/fonts/AnyConv.com__BebasNeue-Regular.woff2); }
-
-@font-face {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  src: local(Open Sans), url(../Webroot/fonts/AnyConv.com__OpenSans-Regular.woff), url(../Webroot/fonts/AnyConv.com__OpenSans-Regular.woff2); }
+  src: local("Open Sans"), url(../fonts/AnyConv.com__OpenSans-Regular.woff2), url(../fonts/AnyConv.com__OpenSans-Regular.woff); }

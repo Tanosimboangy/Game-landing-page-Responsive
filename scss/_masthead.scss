@@ -1,22 +1,26 @@
 @import "variable";
 
 main > header {
-    background-image: url("../img/bg1.png");
-    background-repeat: no-repeat;
-    padding-top: 9px;
-    background-size: cover;
+    // background-image: url(../img/mast_back.png);
+    // background-repeat: no-repeat;
+    // background-position-y: 0;
+    // background-position-x: 0;
+    // background-size: cover;
     text-align: center;
     h3 {
-        font-family: "Bebas Neu";
+        font-family: "Bebas Neue";
         padding-top: 179px;
         margin: 0;
     }
-    h5{
-        font-family: Bebas Neue;
+    h5 {
+        font-family: "Bebas Neue";
         margin: 0;
         padding-top: 7px;
         margin: auto;
         padding-bottom: 12px;
+    }
+    p {
+        font-family: "Open Sans";
     }
     .history_dropdown {
         padding-top: 174px;
@@ -31,5 +35,27 @@ main > header {
     // There still 3 bullets buttons to export
 }
 
-
-
+// @media(min-width: 1120px) {
+//     h3 {
+//         font-family: "Bebas Neu";
+//         padding-top: 179px;
+//         margin: 0;
+//     }
+//     h5{
+//         font-family: Bebas Neue;
+//         margin: 0;
+//         padding-top: 7px;
+//         margin: auto;
+//         padding-bottom: 12px;
+//     }
+//     .history_dropdown {
+//         padding-top: 174px;
+//     }
+//     .history_dropdown {
+//         text-align: left;
+//         text-transform: uppercase;
+//         color: #FFFFFF;
+//         padding-left: 16px;
+//         padding-bottom: 49px;
+//     }
+// }
