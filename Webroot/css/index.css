@@ -15,9 +15,36 @@ body > header {
     top: 18px;
     left: 270px; }
 
+@media (min-width: 1120px) {
+  body > header {
+    position: relative; }
+    body > header .header_navigation {
+      display: block;
+      color: #FFFFFF;
+      text-transform: uppercase; }
+      body > header .header_navigation ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+    body > header .head_logo {
+      position: absolute;
+      top: 0px;
+      left: 10px; }
+    body > header form {
+      position: absolute;
+      top: 18px;
+      left: calc(50vw - 59px); }
+    body > header .menu {
+      position: absolute;
+      top: 18px;
+      left: 270px; } }
+
 main > header {
-  text-align: center; }
+  background-image: url(../Webroot/img/masthead_back.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
   main > header h3 {
+    text-align: center;
     font-family: "Bebas Neue";
     padding-top: 179px;
     margin: 0; }
@@ -30,13 +57,25 @@ main > header {
   main > header p {
     font-family: "Open Sans"; }
   main > header .history_dropdown {
-    padding-top: 174px; }
-  main > header .history_dropdown {
+    padding-top: 174px;
     text-align: left;
     text-transform: uppercase;
     color: #FFFFFF;
     padding-left: 16px;
     padding-bottom: 49px; }
+    main > header .history_dropdown ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      main > header .history_dropdown ul li:nth-of-type(2) ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        main > header .history_dropdown ul li:nth-of-type(2) ul li {
+          padding-right: 6px; }
+        main > header .history_dropdown ul li:nth-of-type(2) ul li:nth-of-type(1) {
+          margin-top: 12px; }
 
 body {
   font-family: "Open Sans";
@@ -71,7 +110,6 @@ h5 {
   color: #FFFFFF; }
 
 .add {
-  text-align: center;
   padding-left: 8px;
   padding-right: 8px;
   padding-bottom: 12px;
@@ -85,46 +123,123 @@ h5 {
     max-width: 1060px;
     margin: auto; } }
 
-section:first-of-type h5 {
-  text-align: left;
-  padding-top: 48px;
-  padding-left: 14px;
-  padding-bottom: 5px;
-  margin: -1px; }
+section:first-of-type {
+  position: relative;
+  background-image: url("../img/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  section:first-of-type h5 {
+    text-align: left;
+    padding-top: 48px;
+    padding-left: 14px;
+    padding-bottom: 5px;
+    margin: -1px; }
+  section:first-of-type h3 {
+    padding-left: 13px;
+    padding-bottom: 5px;
+    margin: 0; }
+  section:first-of-type ul {
+    padding-left: 36px;
+    padding-top: 33px;
+    padding-right: 14px;
+    padding-bottom: 140px; }
+    section:first-of-type ul li p {
+      color: #FFFFFF; }
+  section:first-of-type .line {
+    margin: auto; }
+  section:first-of-type .social1 {
+    position: absolute;
+    top: 480px;
+    z-index: 3;
+    left: calc(50vw - 125px);
+    background-position: 0 0;
+    width: 225px;
+    height: 273px;
+    border-radius: 5px; }
+  section:first-of-type .social2 {
+    top: 490px;
+    position: absolute;
+    z-index: 2;
+    left: calc(50vw - 80px);
+    background-position: 0 0;
+    width: 196px;
+    height: 252px;
+    border-radius: 5px; }
+  section:first-of-type .social3 {
+    top: 500px;
+    position: absolute;
+    left: calc(50vw - 65px);
+    z-index: 1;
+    background-position: 0 0;
+    width: 196px;
+    height: 229px;
+    border-radius: 5px; }
 
-section:first-of-type h3 {
-  padding-left: 13px;
-  padding-bottom: 5px;
-  margin: 0; }
-
-section:first-of-type ul {
-  padding-left: 36px;
-  padding-top: 33px;
-  padding-right: 14px;
-  padding-bottom: 40px; }
-  section:first-of-type ul li p {
-    color: #FFFFFF; }
-
-section:first-of-type .social1 {
-  position: absolute;
-  top: 379px;
-  z-index: 1;
-  left: calc(50% - 400px);
-  background-position: 0 0; }
-
-section:first-of-type .social2 {
-  top: 379px;
-  position: absolute;
-  z-index: 2;
-  left: calc(50% - 400px);
-  background-position: 0 0; }
-
-section:first-of-type .social3 {
-  top: 379px;
-  position: absolute;
-  left: calc(50% - 400px);
-  z-index: 3;
-  background-position: 0 0; }
+@media (min-width: 1120px) {
+  section:first-of-type h5 {
+    text-align: left;
+    padding-top: 256px;
+    padding-bottom: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    padding-left: 0;
+    padding-right: 0; }
+  section:first-of-type h3 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;
+    margin: 0;
+    max-width: 410px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  section:first-of-type ul {
+    padding-left: 150px;
+    padding-top: 33px;
+    padding-right: 14px;
+    padding-bottom: 169px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    max-width: 364px;
+    max-height: 173px; }
+    section:first-of-type ul li p {
+      color: #FFFFFF; }
+  section:first-of-type .social1 {
+    position: absolute;
+    top: 239px;
+    z-index: 3;
+    left: calc(50vw + 50px);
+    background-position: 0 0;
+    width: 450px;
+    height: 550px;
+    border-radius: 10px; }
+  section:first-of-type .social2 {
+    top: 269px;
+    position: absolute;
+    z-index: 2;
+    left: calc(50vw + 150px);
+    background-position: 0 0;
+    width: 380px;
+    height: 500px;
+    border-radius: 8px; }
+  section:first-of-type .social3 {
+    top: 289px;
+    position: absolute;
+    left: calc(50vw + 170px);
+    z-index: 1;
+    background-position: 0 0;
+    width: 380px;
+    height: 460px;
+    border-radius: 6px; } }
 
 section:nth-of-type(2) h5 {
   text-align: center;
@@ -160,6 +275,14 @@ section:nth-of-type(3) .proprety_detail h5 {
   line-height: 18px;
   letter-spacing: 2px;
   color: #FFB548; }
+
+section:nth-of-type(3) .proprety_detail h3 {
+  font-family: "Bebas Neue";
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: blue; }
 
 @font-face {
   font-family: "Bebas Neue";

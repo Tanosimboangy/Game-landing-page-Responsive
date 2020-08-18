@@ -1,10 +1,10 @@
 @import "variable";
 
 section:first-of-type {
-    // position: relative;
-    // background-image: url("../img/bg2.png");
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    position: relative;
+    background-image: url("../img/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     h5 {
         text-align: left;
         padding-top: 48px;
@@ -21,32 +21,122 @@ section:first-of-type {
         padding-left: 36px;
         padding-top: 33px;
         padding-right: 14px;
-        padding-bottom: 40px;
+        padding-bottom: 140px;
         li {
             p {
                 color: #FFFFFF;
             }
         }
     }
+    .line {
+        margin: auto;
+    }
     .social1 {
         position: absolute;
-        top: 379px;
-        z-index: 1;
-        left: calc(50% - 400px);
+        top: 480px;
+        z-index: 3;
+        left: calc(50vw - 125px);
         background-position: 0 0;
+        width: 225px;
+        height: 273px;
+        border-radius: 5px;
     }
     .social2 {
-        top: 379px;
+        top: 490px;
         position: absolute;
         z-index: 2;
-        left: calc(50% - 400px);
+        left: calc(50vw - 80px);
         background-position: 0 0;
+        width: 196px;
+        height: 252px;
+        border-radius: 5px;
     }
     .social3 {
-        top: 379px;
+        top: 500px;
         position: absolute;
-        left: calc(50% - 400px);
-        z-index: 3;
+        left: calc(50vw - 65px);
+        z-index: 1;
         background-position: 0 0;
+        width: 196px;
+        height: 229px;
+        border-radius: 5px;
+    }
+}
+
+@media(min-width: 1120px) {
+    section:first-of-type {
+        h5 {
+            text-align: left;
+            padding-top: 256px;
+            padding-bottom: 5px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: 2px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        h3 {
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 5px;
+            margin: 0;
+            max-width: 410px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 80px;
+            line-height: 80px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        ul {
+            padding-left: 150px;
+            padding-top: 33px;
+            padding-right: 14px;
+            padding-bottom: 169px;
+            font-family: Open Sans;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: justify;
+            max-width: 364px;
+            max-height: 173px;
+            li {
+                p {
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .social1 {
+            position: absolute;
+            top: 239px;
+            z-index: 3;
+            left: calc(50vw + 50px);
+            background-position: 0 0;
+            width: 450px;
+            height: 550px;
+            border-radius: 10px;
+        }
+        .social2 {
+            top: 269px;
+            position: absolute;
+            z-index: 2;
+            left: calc(50vw + 150px);
+            background-position: 0 0;
+            width: 380px;
+            height: 500px;
+            border-radius: 8px;
+        }
+        .social3 {
+            top: 289px;
+            position: absolute;
+            left: calc(50vw + 170px);
+            z-index: 1;
+            background-position: 0 0;
+            width: 380px;
+            height: 460px;
+            border-radius: 6px;
+        }
     }
 }

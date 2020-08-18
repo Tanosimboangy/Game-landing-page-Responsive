@@ -16,7 +16,38 @@ body > header {
     .menu {
         position: absolute;
         top: 18px;
-        // left: calc(50% - 400px);
         left: 270px;
     }
+}
+
+@media(min-width: 1120px) {
+    body > header {
+        position: relative;
+        .header_navigation {
+            display: block;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+        .head_logo {
+            position: absolute;
+            top: 0px;
+            left: 10px;
+        }
+        form {
+            position: absolute;
+            top: 18px;
+            left: calc(50vw - 59px);
+        }
+        .menu {
+            position: absolute;
+            top: 18px;
+            left: 270px;
+        }
+    }
+    
 }
