@@ -1,21 +1,75 @@
 @import "variable";
 
 section:nth-of-type(3) {
-    .proprety_detail h5 {
+    position: relative;
+    background-image: url(../Webroot/img/system_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h5 {
         font-family: "Bebas Neue";
         padding-top: 68px;
         text-align: center;
         font-size: 18px;
         line-height: 18px;
         letter-spacing: 2px;
-        color: #FFB548;
+        letter-spacing: 2px;
+        color: #FFFFFF;
     }
-    .proprety_detail h3 {
-        font-family: "Bebas Neue";
+    h3 {
+        padding-top: 16px;
         text-align: center;
+        padding-bottom: 40px;
+    }
+    .proprety_detail {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column: 6px;
+        grid-gap: 16px;
+        padding-bottom: 234px;
+        padding-right: 10px;
+        padding-left: 10px;
+        max-width: 290px;
+        max-height: 316px;
+    }
+    .proprety_detail li:nth-of-type(1) {
+        grid-column: 1 / 1;
+        grid-row: 1;
+    }
+    .proprety_detail li:nth-of-type(2) {
+        grid-column: 2 / 2;
+        grid-row: 1;
+    }
+    .proprety_detail li:nth-of-type(3) {
+        grid-column: 1 / 1;
+        grid-row: 2;
+    }
+    .proprety_detail li:nth-of-type(4) {
+        grid-column: 2 / 2;
+        grid-row: 2;
+    }
+    .proprety_detail li:nth-of-type(5) {
+        grid-column: 1 / 2;
+        grid-row: 3;
+    }
+    .proprety_detail h5 {
+        font-family: "Bebas Neue";
+        padding-top: 68px;
+        text-align: left;
         font-size: 18px;
         line-height: 18px;
         letter-spacing: 2px;
-        color: blue;
+        color: #FFB548;
+        padding-top: 0;
+    }
+    .proprety_detail p {
+        font-family: "Open Sans";
+        font-style: normal;
+        text-align: left;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 4px 0;
+        margin: 0;
     }
 }

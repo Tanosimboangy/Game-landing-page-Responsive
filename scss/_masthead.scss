@@ -2,24 +2,17 @@
 
 main > header {
     // background-image: url(../source-materials/img/mathead_back_resized.png);
-    // background-repeat: no-repeat;
     // background-position-y: 0;
     // background-position-x: 0;
-    // background-size: cover;
     background-image: url(../Webroot/img/masthead_back.png);
     background-repeat: no-repeat;
     background-size: cover;
     h3 {
         text-align: center;
-        font-family: "Bebas Neue";
         padding-top: 179px;
-        margin: 0;
     }
     h5 {
-        font-family: "Bebas Neue";
-        margin: 0;
         padding-top: 7px;
-        margin: auto;
         padding-bottom: 12px;
     }
     p {

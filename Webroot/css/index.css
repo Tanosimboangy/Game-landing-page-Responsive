@@ -45,14 +45,9 @@ main > header {
   background-size: cover; }
   main > header h3 {
     text-align: center;
-    font-family: "Bebas Neue";
-    padding-top: 179px;
-    margin: 0; }
+    padding-top: 179px; }
   main > header h5 {
-    font-family: "Bebas Neue";
-    margin: 0;
     padding-top: 7px;
-    margin: auto;
     padding-bottom: 12px; }
   main > header p {
     font-family: "Open Sans"; }
@@ -99,7 +94,8 @@ h3 {
   line-height: 33px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  margin: 0; }
 
 h5 {
   font-family: "Bebas Neue";
@@ -107,7 +103,8 @@ h5 {
   line-height: 18px;
   text-align: center;
   letter-spacing: 2px;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  margin: 0; }
 
 .add {
   padding-left: 8px;
@@ -125,7 +122,7 @@ h5 {
 
 section:first-of-type {
   position: relative;
-  background-image: url("../img/bg2.png");
+  background-image: url("../img/social_back.png");
   background-repeat: no-repeat;
   background-size: cover; }
   section:first-of-type h5 {
@@ -136,20 +133,18 @@ section:first-of-type {
     margin: -1px; }
   section:first-of-type h3 {
     padding-left: 13px;
-    padding-bottom: 5px;
-    margin: 0; }
+    padding-bottom: 50px;
+    border-bottom: 1px solid white; }
   section:first-of-type ul {
     padding-left: 36px;
     padding-top: 33px;
     padding-right: 14px;
-    padding-bottom: 140px; }
+    padding-bottom: 260px; }
     section:first-of-type ul li p {
       color: #FFFFFF; }
-  section:first-of-type .line {
-    margin: auto; }
   section:first-of-type .social1 {
     position: absolute;
-    top: 480px;
+    top: 540px;
     z-index: 3;
     left: calc(50vw - 125px);
     background-position: 0 0;
@@ -157,7 +152,7 @@ section:first-of-type {
     height: 273px;
     border-radius: 5px; }
   section:first-of-type .social2 {
-    top: 490px;
+    top: 550px;
     position: absolute;
     z-index: 2;
     left: calc(50vw - 80px);
@@ -166,7 +161,7 @@ section:first-of-type {
     height: 252px;
     border-radius: 5px; }
   section:first-of-type .social3 {
-    top: 500px;
+    top: 560px;
     position: absolute;
     left: calc(50vw - 65px);
     z-index: 1;
@@ -226,7 +221,7 @@ section:first-of-type {
     top: 269px;
     position: absolute;
     z-index: 2;
-    left: calc(50vw + 150px);
+    left: calc(50vw + 140px);
     background-position: 0 0;
     width: 380px;
     height: 500px;
@@ -234,32 +229,34 @@ section:first-of-type {
   section:first-of-type .social3 {
     top: 289px;
     position: absolute;
-    left: calc(50vw + 170px);
+    left: calc(50vw + 160px);
     z-index: 1;
     background-position: 0 0;
     width: 380px;
     height: 460px;
     border-radius: 6px; } }
 
-section:nth-of-type(2) h5 {
-  text-align: center;
-  padding-top: 82px;
-  padding-left: 50px;
-  margin: 0; }
-
-section:nth-of-type(2) h3 {
-  text-align: center;
-  padding-top: 5px;
-  padding-left: 25px;
-  padding-bottom: 18px;
-  margin: 0; }
-
-section:nth-of-type(2) details {
-  text-align: left;
-  color: #FFB548;
-  padding-left: 110px;
-  padding-right: 18px;
-  margin: 0; }
+section:nth-of-type(2) {
+  background-image: url("../img/feature_back.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  section:nth-of-type(2) h5 {
+    text-align: center;
+    padding-top: 82px;
+    padding-left: 50px;
+    margin: 0; }
+  section:nth-of-type(2) h3 {
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-bottom: 18px;
+    margin: 0; }
+  section:nth-of-type(2) details {
+    text-align: left;
+    color: #FFB548;
+    padding-left: 110px;
+    padding-right: 18px;
+    margin: 0; }
 
 section:nth-of-type(4) article h4 {
   color: #FFB548; }
@@ -267,22 +264,68 @@ section:nth-of-type(4) article h4 {
 section:nth-of-type(5) ul li p a {
   color: #FFB548; }
 
-section:nth-of-type(3) .proprety_detail h5 {
-  font-family: "Bebas Neue";
-  padding-top: 68px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 18px;
-  letter-spacing: 2px;
-  color: #FFB548; }
-
-section:nth-of-type(3) .proprety_detail h3 {
-  font-family: "Bebas Neue";
-  text-align: center;
-  font-size: 18px;
-  line-height: 18px;
-  letter-spacing: 2px;
-  color: blue; }
+section:nth-of-type(3) {
+  position: relative;
+  background-image: url(../Webroot/img/system_back.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  section:nth-of-type(3) h5 {
+    font-family: "Bebas Neue";
+    padding-top: 68px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    letter-spacing: 2px;
+    color: #FFFFFF; }
+  section:nth-of-type(3) h3 {
+    padding-top: 16px;
+    text-align: center;
+    padding-bottom: 40px; }
+  section:nth-of-type(3) .proprety_detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 6px;
+    grid-gap: 16px;
+    padding-bottom: 234px;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 290px;
+    max-height: 316px; }
+  section:nth-of-type(3) .proprety_detail li:nth-of-type(1) {
+    grid-column: 1 / 1;
+    grid-row: 1; }
+  section:nth-of-type(3) .proprety_detail li:nth-of-type(2) {
+    grid-column: 2 / 2;
+    grid-row: 1; }
+  section:nth-of-type(3) .proprety_detail li:nth-of-type(3) {
+    grid-column: 1 / 1;
+    grid-row: 2; }
+  section:nth-of-type(3) .proprety_detail li:nth-of-type(4) {
+    grid-column: 2 / 2;
+    grid-row: 2; }
+  section:nth-of-type(3) .proprety_detail li:nth-of-type(5) {
+    grid-column: 1 / 2;
+    grid-row: 3; }
+  section:nth-of-type(3) .proprety_detail h5 {
+    font-family: "Bebas Neue";
+    padding-top: 68px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFB548;
+    padding-top: 0; }
+  section:nth-of-type(3) .proprety_detail p {
+    font-family: "Open Sans";
+    font-style: normal;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 4px 0;
+    margin: 0; }
 
 @font-face {
   font-family: "Bebas Neue";
