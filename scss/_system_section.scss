@@ -2,8 +2,9 @@
 
 section:nth-of-type(3) {
     position: relative;
-    background-image: url(../Webroot/img/system_back.png);
+    background-image: url(../img/real_system_back.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     h5 {
         font-family: "Bebas Neue";
@@ -24,32 +25,41 @@ section:nth-of-type(3) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column: 6px;
-        grid-gap: 16px;
         padding-bottom: 234px;
-        padding-right: 10px;
-        padding-left: 10px;
-        max-width: 290px;
+        padding-right: 20px;
+        padding-left: 20px;
+        max-width: 360px;
         max-height: 316px;
     }
     .proprety_detail li:nth-of-type(1) {
         grid-column: 1 / 1;
         grid-row: 1;
+        padding: 8px;
+        border: .5px solid #464545;
     }
     .proprety_detail li:nth-of-type(2) {
         grid-column: 2 / 2;
         grid-row: 1;
+        padding: 8px;
+        border: .5px solid #464545;
     }
     .proprety_detail li:nth-of-type(3) {
         grid-column: 1 / 1;
         grid-row: 2;
+        padding: 8px;
+        border: .5px solid #464545;
     }
     .proprety_detail li:nth-of-type(4) {
         grid-column: 2 / 2;
         grid-row: 2;
+        padding: 8px;
+        border: .5px solid #464545;
     }
     .proprety_detail li:nth-of-type(5) {
-        grid-column: 1 / 2;
+        grid-column: 1 / 3;
         grid-row: 3;
+        padding: 8px;
+        border: .5px solid #464545;
     }
     .proprety_detail h5 {
         font-family: "Bebas Neue";
@@ -71,5 +81,20 @@ section:nth-of-type(3) {
         color: #FFFFFF;
         padding: 4px 0;
         margin: 0;
+    }
+}
+
+@media(min-width: 1120px) {
+    section:nth-of-type(3) {
+        h5 {
+            padding-top: 145px;
+        }
+        .proprety_detail {
+            padding-top: 133px;
+            padding-bottom: 170px;
+            padding-left: 120px;
+            width: 573px;
+            height: 400px;
+        }
     }
 }
