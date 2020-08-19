@@ -37,6 +37,23 @@ h5 {
     color: #FFFFFF;
     margin: 0;
 }
+p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+    
+    
+    color: #FFFFFF;
+    
+}
 
 .add {
     padding-left: 8px;
@@ -59,12 +76,6 @@ h5 {
         text-transform: uppercase;
         color: #FFFFFF;
         margin: 0;
-
-        // padding-left: 0;
-        // padding-right: 0;
-        // padding-bottom: 5px;
-        // margin: 0;
-        // max-width: 410px;
     }
     .container {
     max-width: 1060px;
