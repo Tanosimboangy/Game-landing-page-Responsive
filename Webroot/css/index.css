@@ -74,7 +74,7 @@ main > header {
 
 footer {
   background-color: #000000; }
-  footer p {
+  footer .footer_logo {
     padding-top: 30px;
     padding-bottom: 42px;
     text-align: center;
@@ -89,16 +89,45 @@ footer {
       color: #FFFFFF;
       text-transform: uppercase;
       margin: 0;
-      flex-basis: auto; }
-  footer .footer_navigation_icons {
+      flex-basis: auto;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+  footer .footer_navigation_icons ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: center; }
-    footer .footer_navigation_icons li {
+    align-content: center;
+    border-bottom: 0.873968px solid #FFFFFF; }
+    footer .footer_navigation_icons ul li {
       margin: 0;
-      flex-basis: auto; }
+      flex-basis: auto;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+  footer .extra {
+    padding-top: 15px; }
+    footer .extra li:nth-of-type(1) {
+      text-align: center;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      opacity: 0.5;
+      padding-top: 25px;
+      padding-bottom: 25px; }
+      footer .extra li:nth-of-type(1) a {
+        color: #FFFFFF; }
+    footer .extra li:nth-of-type(2) .footer_policy ul li {
+      text-align: center;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 34px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FFFFFF; }
 
 body {
   font-family: "Open Sans";
