@@ -1,1 +1,37 @@
 @import "variable";
+
+footer {
+    background-color: #000000;
+    p {
+        padding-top: 30px;
+        padding-bottom: 42px;
+        text-align: center;
+        margin: 0;
+    }
+    .footer_navigation ul {
+        display: flex;  
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        li {
+            p {
+                color: #FFFFFF;
+                text-transform: uppercase;
+                margin: 0;
+                flex-basis: auto;
+            }
+        }
+    }
+    .footer_navigation_icons {
+        display: flex;  
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        li {
+            margin: 0;
+            flex-basis: auto;
+        }
+    }
+}
