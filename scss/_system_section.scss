@@ -1,14 +1,12 @@
 @import "variable";
 
 section:nth-of-type(3) {
-    // position: relative;
-    // background-image: url(../img/real_system_back.png);
-    // background-repeat: no-repeat;
-    // background-position: center;
-    // background-size: cover;
-
-    // THIS IS NOT YET FINISHED
-    
+    position: relative;
+    background-image: url(../img/system_back_small.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-size: cover;
     h5 {
         padding-top: 68px;
         text-align: center;
@@ -81,10 +79,20 @@ section:nth-of-type(3) {
     }
 }
 
+@media(min-width: 550px) {
+    section:nth-of-type(3) {
+        position: relative;
+        background-image: url(../img/system_back.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
 @media(min-width: 1120px) {
     section:nth-of-type(3) {
         position: relative;
-        background-image: url(../img/real_system_back.png);
+        background-image: url(../img/system_back.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
