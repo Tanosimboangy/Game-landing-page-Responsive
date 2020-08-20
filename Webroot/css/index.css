@@ -130,6 +130,11 @@ p {
   border-radius: 3px;
   border: none; }
 
+@media (min-width: 720px) {
+  .container {
+    max-width: 900px;
+    margin: auto; } }
+
 @media (min-width: 1120px) {
   h3 {
     font-family: "Bebas Neue";
@@ -142,7 +147,7 @@ p {
     color: #FFFFFF;
     margin: 0; }
   .container {
-    max-width: 1060px;
+    max-width: 1114px;
     margin: auto; } }
 
 section:first-of-type {
@@ -171,7 +176,7 @@ section:first-of-type {
     position: absolute;
     top: 540px;
     z-index: 3;
-    left: calc(50vw - 125px);
+    left: calc(50vw - 135px);
     background-position: 0 0;
     width: 225px;
     height: 273px;
@@ -180,7 +185,7 @@ section:first-of-type {
     top: 550px;
     position: absolute;
     z-index: 2;
-    left: calc(50vw - 80px);
+    left: calc(50vw - 90px);
     background-position: 0 0;
     width: 196px;
     height: 252px;
@@ -188,7 +193,7 @@ section:first-of-type {
   section:first-of-type .social3 {
     top: 560px;
     position: absolute;
-    left: calc(50vw - 65px);
+    left: calc(50vw - 75px);
     z-index: 1;
     background-position: 0 0;
     width: 196px;
@@ -313,8 +318,7 @@ section:nth-of-type(3) {
   position: relative;
   background-image: url(../img/system_back_small.png);
   background-repeat: no-repeat;
-  background-position-y: 50%;
-  background-position-x: 50%;
+  background-position: 50% 50%;
   background-size: cover; }
   section:nth-of-type(3) h5 {
     padding-top: 68px;
