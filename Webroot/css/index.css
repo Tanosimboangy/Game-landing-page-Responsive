@@ -118,7 +118,7 @@ footer {
       padding-bottom: 25px; }
       footer .extra li:nth-of-type(1) a {
         color: #FFFFFF; }
-    footer .extra li:nth-of-type(2) .footer_policy ul li {
+    footer .extra li:last-of-type .footer_policy li p {
       text-align: center;
       font-family: "Open Sans";
       font-style: normal;
@@ -185,15 +185,6 @@ p {
   background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
   border-radius: 3px;
   border: none; }
-
-.container {
-  max-width: 298px;
-  margin: auto; }
-
-@media (min-width: 720px) {
-  .container {
-    max-width: 800px;
-    margin: auto; } }
 
 @media (min-width: 1120px) {
   h3 {
