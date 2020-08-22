@@ -248,6 +248,43 @@ section:first-of-type {
       display: block;
       border-radius: 10px; }
 
+@media (min-width: 1120px) {
+  section:first-of-type h5 {
+    text-align: left;
+    padding-top: 256px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0; }
+  section:first-of-type h3 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;
+    margin: 0;
+    max-width: 410px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  section:first-of-type ul {
+    padding-left: 150px;
+    padding-top: 33px;
+    padding-right: 14px;
+    padding-bottom: 169px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    max-width: 364px;
+    max-height: 173px; }
+    section:first-of-type ul li p {
+      color: #FFFFFF; }
+  section:first-of-type .social_images {
+    clear: left;
+    float: right; } }
+
 section:nth-of-type(2) {
   background-image: url("../img/social_back_small.png");
   background-repeat: no-repeat;
