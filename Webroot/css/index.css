@@ -107,18 +107,32 @@ footer {
   footer .extra {
     margin: 0;
     padding-top: 15px; }
-    footer .extra li:nth-of-type(1) {
+    footer .extra .first_footer_link {
       text-align: center;
       font-family: "Open Sans";
       font-style: normal;
-      font-weight: normal;
+      font-weight: 400;
       font-size: 12px;
       line-height: 16px;
       opacity: 0.5;
       padding-top: 25px;
       padding-bottom: 25px; }
-      footer .extra li:nth-of-type(1) a {
+      footer .extra .first_footer_link a {
         color: #FFFFFF; }
+    footer .extra .footer_policy {
+      padding-bottom: 65px; }
+      footer .extra .footer_policy li {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 34px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF; }
+        footer .extra .footer_policy li a {
+          color: #FFFFFF; }
 
 body {
   font-family: "Open Sans";
@@ -176,6 +190,9 @@ p {
   background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
   border-radius: 3px;
   border: none; }
+
+a {
+  text-decoration: none; }
 
 @media (min-width: 1120px) {
   h3 {
