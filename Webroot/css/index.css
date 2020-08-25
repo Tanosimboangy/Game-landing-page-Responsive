@@ -280,10 +280,7 @@ section:first-of-type {
     max-width: 364px;
     max-height: 173px; }
     section:first-of-type ul li p {
-      color: #FFFFFF; }
-  section:first-of-type .social_images {
-    clear: left;
-    float: right; } }
+      color: #FFFFFF; } }
 
 section:nth-of-type(2) {
   background-image: url("../img/social_back_small.png");
@@ -334,6 +331,24 @@ section:nth-of-type(2) {
     color: #FFB548;
     padding-left: 0;
     padding-bottom: 43px;
+    margin: 0; } }
+
+@media (min-width: 1120px) {
+  section:nth-of-type(2) h5 {
+    text-align: center;
+    padding-top: 258px;
+    margin: 0; }
+  section:nth-of-type(2) h3 {
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-bottom: 18px;
+    margin: 0; }
+  section:nth-of-type(2) details {
+    text-align: left;
+    color: #FFB548;
+    padding-left: 110px;
+    padding-right: 18px;
     margin: 0; } }
 
 section:nth-of-type(4) article h4 {
