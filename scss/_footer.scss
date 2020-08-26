@@ -2,6 +2,9 @@
 
 footer {
     background-color: #000000;
+    .first_list_footer {
+        border-bottom: 0.873968px solid #FFFFFF; 
+    }
     .footer_logo {
         padding-top: 30px;
         padding-bottom: 42px;
@@ -15,14 +18,12 @@ footer {
         justify-content: space-around;
         align-content: center;
         li {
-            p {
-                color: #FFFFFF;
-                text-transform: uppercase;
-                margin: 0;
-                flex-basis: auto;
-                padding-top: 20px;
-                padding-bottom: 20px;
-            }
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin: 0;
+            flex-basis: auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
     }
     .footer_navigation_icons {
@@ -31,7 +32,6 @@ footer {
         flex-wrap: wrap;
         justify-content: space-around;
         align-content: center;
-        border-bottom: 0.873968px solid #FFFFFF;
         li {
             margin: 0;
             flex-basis: auto;
@@ -73,36 +73,48 @@ footer {
                 }
             }
         }
-        
     }
 }
 
 @media(min-width: 1120px) {
 	footer {
-		.aligning_items {
-			display: flex;
-			flex-direction: row;
-			.footer_logo {
+		.first_list_footer {
+			display: flex;  
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: baseline;
+            align-content: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            ul {
+                display: flex;  
+                flex-direction: row;
+                justify-content: space-around;
+                align-content: center;
+                li {
+                    padding: 0 1rem;
+                }
+            }
+            .footer_logo {
 				padding: 0;
 				text-align: left;
-				margin: 0; 
-				p {
-					max-width: 90px;
-					max-height: 90px;
+				margin: 0;
+				a {
+					img {
+						width: 90px;
+					}
 				}
-			}
-			.navigation {
-				display: flex;
-				flex-direction: row;
-			}
-		}
-		.extra {
-			display: flex;
-			flex-direction: row;
-			.footer_policy {
-				display: flex;
-				flex-direction: row;
-			}
+            }
+            .extra {
+                display: flex;  
+                flex-direction: row;
+                justify-content: space-around;
+                align-content: center;
+                li {
+                    padding: 0 1rem;
+                }
+            }
 		}
 	}
 }
