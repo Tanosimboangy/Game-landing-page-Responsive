@@ -106,16 +106,12 @@ footer {
 					}
 				}
             }
-            .extra {
-                display: flex;  
-                flex-direction: row;
-                justify-content: space-around;
-                align-content: center;
-                li {
-                    padding: 0 1rem;
-                }
-            }
-		}
+        }
+        .extra {
+            display: flex;  
+            flex-direction: row;
+            align-content: center;
+        }
 	}
 }
 
