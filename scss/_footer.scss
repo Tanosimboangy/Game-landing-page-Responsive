@@ -111,6 +111,16 @@ footer {
             display: flex;  
             flex-direction: row;
             align-content: center;
+            justify-content: space-between;
+            .footer_policy {
+                display: flex;  
+                flex-direction: row;
+                align-content: center;
+                justify-content: space-between;
+                li {
+                    padding: 0 1rem;
+                }
+            }
         }
 	}
 }
