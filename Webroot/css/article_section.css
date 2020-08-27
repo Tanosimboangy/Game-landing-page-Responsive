@@ -1,0 +1,83 @@
+section:nth-of-type(4) .detail_profile article {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  max-width: 400px; }
+  section:nth-of-type(4) .detail_profile article .more_information li:nth-of-type(1) {
+    max-width: 390px; }
+  section:nth-of-type(4) .detail_profile article .more_information li:nth-of-type(2) p {
+    color: #FFFFFF;
+    opacity: 0.5; }
+  section:nth-of-type(4) .detail_profile article .profile ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px; }
+    section:nth-of-type(4) .detail_profile article .profile ul .profile_detail {
+      padding: 0;
+      display: flex;
+      flex-direction: row; }
+      section:nth-of-type(4) .detail_profile article .profile ul .profile_detail li:nth-of-type(1) img {
+        width: 80%;
+        margin-top: -16px; }
+      section:nth-of-type(4) .detail_profile article .profile ul .profile_detail li:nth-of-type(2) ul {
+        display: flex;
+        flex-direction: column; }
+        section:nth-of-type(4) .detail_profile article .profile ul .profile_detail li:nth-of-type(2) ul li:nth-of-type(2) p {
+          padding: 0 0;
+          font-size: 14px;
+          line-height: 22px;
+          text-align: justify;
+          color: #FFFFFF;
+          opacity: 0.5; }
+  section:nth-of-type(4) .detail_profile article .profile h4 {
+    font-family: "Bebas Neue";
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    color: #FFB548;
+    padding-bottom: 3px;
+    margin: 0; }
+  section:nth-of-type(4) .detail_profile article .profile img {
+    width: 30px;
+    padding-top: 16px; }
+
+@media (min-width: 720px) {
+  section:nth-of-type(4) .detail_profile {
+    text-align: left; }
+    section:nth-of-type(4) .detail_profile article {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      margin: 15px 0;
+      border-radius: 10px;
+      max-width: 400px; }
+      section:nth-of-type(4) .detail_profile article .more_information li:nth-of-type(1) {
+        max-width: 390px; } }
+
+@media (min-width: 1120px) {
+  section:nth-of-type(4) .detail_profile {
+    padding-top: 160px; }
+    section:nth-of-type(4) .detail_profile article:nth-of-type(2) {
+      transform: translateX(-30%); }
+    section:nth-of-type(4) .detail_profile article:nth-of-type(3) {
+      transform: translateX(-15%); }
+    section:nth-of-type(4) .detail_profile article {
+      margin-bottom: 29px; }
+      section:nth-of-type(4) .detail_profile article .more_information {
+        padding-left: 15px; }
+      section:nth-of-type(4) .detail_profile article .profile ul .profile_detail li:nth-of-type(1) img {
+        width: 100%; }
+      section:nth-of-type(4) .detail_profile article .profile ul .profile_detail li:nth-of-type(2) ul li:nth-of-type(1) h4 {
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 2px; }
+      section:nth-of-type(4) .detail_profile article .profile ul .profile_detail li:nth-of-type(2) ul li:nth-of-type(2) p {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: justify;
+        color: #FFFFFF;
+        opacity: 0.5; }
+      section:nth-of-type(4) .detail_profile article .profile img {
+        width: 40px;
+        padding-top: 16px; } }

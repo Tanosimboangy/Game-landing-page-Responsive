@@ -1,13 +1,60 @@
 @import "variable";
 
 section:nth-of-type(5) {
+    background-color: hsl(0, 0%, 0%);
+    background-image: url(./img/newletter_subscribe.png);
+
+    text-align: center;
+    .wrapper {
+        padding-left: 110px;    
+        h5 {
+            padding-top: 60px;
+            padding-bottom: 5px;
+            text-align: left;
+        }
+        h3 {
+            text-align: left;
+        }
+        p {
+            text-align: left;
+            padding-bottom: 47px;
+            padding-right: 4px;
+        }
+    }
     ul {
         li {
             p {
+                margin: 0;
+            }
+        }
+        li:nth-of-type(1) {
+            text-align: left;
+            padding: 10px 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            max-width: 200px;
+            background-color: rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            p {
+                margin: 0;
+                color: #FFFFFF;
                 a {
                     color: #FFB548;
+                    opacity: 1;
                 }
             }
         }
+        li:nth-of-type(2) {
+            p {
+                margin: 0;
+                color: #FFFFFF;
+                a {
+                    color: #FFB548;
+                    opacity: 1;
+                }
+            }
+        }
+
     }
 }
