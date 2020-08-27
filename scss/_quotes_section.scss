@@ -10,6 +10,7 @@ section:nth-of-type(4) {
         text-align: left;
     }
     h3 {
+        text-align: left;
         padding-bottom: 25px;
         padding-left: 10px;
     }
@@ -19,84 +20,48 @@ section:nth-of-type(4) {
         margin: 0;
         padding-bottom: 23px;
     }
-    .testimonials {
+    .wrapper_button {
         text-align: center;
-    }
-    article {
-        background: rgba(255, 255, 255, 0.2);
-        border-radius: 10px;
-        margin: 10px 10px;
-        border-radius: 10px;
-        max-width: 300px;
-        .more_information {
-            li:nth-of-type(2) {
-                p {
-                    color: #FFFFFF;
-                    opacity: 0.5;;
-                }
-            }
-        }
-        .profile {
-            ul {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                padding: 10px;
-                .profile_detail {
-                    padding: 0;
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    li:nth-of-type(1) {
-                        img {
-                            width: 80%;
-                            margin-top: -36px;
-                        }
-                    }
-                    li:nth-of-type(2) {
-                        ul {
-                            display: flex;
-                            flex-direction: column;
-                            li:nth-of-type(2) {
-                                p {
-                                    padding-left: 0;
-                                    padding-right: 0;
-                                    font-family: "Open Sans";
-                                    font-style: normal;
-                                    font-weight: normal;
-                                    font-size: 14px;
-                                    line-height: 22px;
-                                    text-align: justify;
-                                    color: #FFFFFF;
-                                    opacity: 0.5;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            h4 {
-                font-family: "Bebas Neue";
-                font-size: 21px;
-                line-height: 21px;
-                letter-spacing: 2px;
-                color: #FFB548;
-                padding-bottom: 3px;
-                margin: 0;
-            }
-            img {
-                width: 30px;
-                padding-top: 16px;
-            }
+        .testimonials {
+            text-align: center;
         }
     }
-    // article:nth-of-type(1) {
-    // 
-    // }
-    // article:nth-of-type(2) {
-    // 
-    // }
-    // article:nth-of-type(3) {
-    // 
-    // }
+}
+
+@media(min-width: 720px) {
+    section:nth-of-type(4) {
+        .testimonials {
+            margin-bottom: 100px;
+        }
+    }
+}
+@media(min-width: 1120px) {
+    section:nth-of-type(4) {
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        background-color: #000000;
+        padding-bottom: 40px;
+        h5 {
+            padding-top: 300px;
+            padding-bottom: 8px;
+            text-align: left;
+            padding-left: 0;
+        }
+        h3 {
+            padding-bottom: 50px;
+            padding-top: 0;
+            padding-left: 0;
+        }
+        p {
+            max-width: 434px;
+            padding-bottom: 37px;
+            padding-left: 0;
+        }
+        .testimonials {
+            margin-bottom: 260px;
+        }
+    }
 }
