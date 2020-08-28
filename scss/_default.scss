@@ -48,7 +48,7 @@ p {
     padding-bottom: 12px;
     padding-top: 12px;
     background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
-    border-radius: 3px;
+    border-radius: 10px;
     border: none;
 }
 a {
@@ -98,6 +98,14 @@ a {
         font-size: 24px;
         line-height: 24px;
         letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
         color: #FFFFFF;
     }
 } 
