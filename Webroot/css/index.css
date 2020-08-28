@@ -208,13 +208,7 @@ h5 {
 p {
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  color: #FFFFFF;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF; }
@@ -579,7 +573,7 @@ section:nth-of-type(5) {
   background-image: url(./img/newletter_subscribe.png);
   text-align: center; }
   section:nth-of-type(5) .wrapper {
-    padding-left: 110px; }
+    margin-left: 120px; }
     section:nth-of-type(5) .wrapper h5 {
       padding-top: 60px;
       padding-bottom: 5px;
@@ -593,14 +587,15 @@ section:nth-of-type(5) {
   section:nth-of-type(5) ul li p {
     margin: 0; }
   section:nth-of-type(5) ul li:nth-of-type(1) {
-    text-align: left;
-    padding: 10px 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-bottom: 20px;
-    max-width: 200px;
     background-color: rgba(255, 255, 255, 0.08);
-    border-radius: 10px; }
+    border-radius: 10px;
+    text-align: initial; }
     section:nth-of-type(5) ul li:nth-of-type(1) p {
       margin: 0;
       color: #FFFFFF; }
@@ -610,6 +605,8 @@ section:nth-of-type(5) {
   section:nth-of-type(5) ul li:nth-of-type(2) p {
     margin: 0;
     color: #FFFFFF; }
+    section:nth-of-type(5) ul li:nth-of-type(2) p .subscribe {
+      padding: 15px 90px; }
     section:nth-of-type(5) ul li:nth-of-type(2) p a {
       color: #FFB548;
       opacity: 1; }

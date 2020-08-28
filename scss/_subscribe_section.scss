@@ -5,8 +5,8 @@ section:nth-of-type(5) {
     background-image: url(./img/newletter_subscribe.png);
 
     text-align: center;
-    .wrapper {
-        padding-left: 110px;    
+    .wrapper { 
+        margin-left: 120px;
         h5 {
             padding-top: 60px;
             padding-bottom: 5px;
@@ -28,14 +28,15 @@ section:nth-of-type(5) {
             }
         }
         li:nth-of-type(1) {
-            text-align: left;
-            padding: 10px 20px;
-            margin-left: 10px;
-            margin-right: 10px;
+            display: inline-block;
+            padding-left: 6px;
+            padding-right: 100px;
+            padding-top: 15px;
+            padding-bottom: 15px;
             margin-bottom: 20px;
-            max-width: 200px;
             background-color: rgba(255, 255, 255, 0.08);
             border-radius: 10px;
+            text-align: initial;
             p {
                 margin: 0;
                 color: #FFFFFF;
@@ -49,6 +50,9 @@ section:nth-of-type(5) {
             p {
                 margin: 0;
                 color: #FFFFFF;
+                .subscribe {
+                    padding: 15px 90px;
+                }
                 a {
                     color: #FFB548;
                     opacity: 1;
