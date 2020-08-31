@@ -8,23 +8,23 @@ section:nth-of-type(2) {
     h5 {
         text-align: center;
         padding-top: 100px;
-        padding-left: 170px;
+        padding-left: 75px;
         margin: 0;
     }
     h3 {
         text-align: center;
         padding-top: 5px;
-        padding-left: 145px;
+        padding-left: 50px;
         padding-bottom: 40px;
         margin: 0;
     }
     .detail {
         padding-bottom: 90px;
+        padding-left: 115px;
     }
     details {
-        text-align: left;
+        text-align: center;
         color: #FFB548;
-        padding-left: 50vw;
         padding-bottom: 43px;
         margin: 0;
         summary {
@@ -34,17 +34,43 @@ section:nth-of-type(2) {
             line-height: 21px;
             letter-spacing: 2px;
             color: #FFB548;
-
+        }
+        section:nth-of-type(2) details {
+            position: relative;
+        }
+        summary::-webkit-details-marker {
+            display: none;
+        }
+        summary::before {
+            content: "";
+            position: absolute;
+            padding: .3rem;
+            border: 1px solid white;
+            border-radius: 50%;
+            top: .5rem;
+            left: -2rem;
+            z-index: 2;
         }
     }
 }
 
-@media(min-width: 420px) {
+// @media(min-width: 420px) {
+//     section:nth-last-of-type(2) {
+//         background-image: url("../img/real_social_back.png");
+//         background-repeat: no-repeat;
+//         background-position: center center;
+//         background-size: cover;
+//         max-width: 100%;
+//     }
+// }
+        
+@media(min-width: 720px) {
     section:nth-of-type(2) {
         background-image: url("../img/real_social_back.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
+        max-width: 100%;
     }
     h5 {
         text-align: center;
@@ -74,27 +100,40 @@ section:nth-of-type(2) {
 
 @media(min-width: 1120px) {
     section:nth-of-type(2) {
-        // max-width: 1300px;
-        // max-height: 100vw;
+        background-image: url("../img/real_social_back.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        max-width: 100%;
         h5 {
             text-align: center;
-            padding-top: 258px;
+            padding-top: 160px;
+            padding-left: 250px;
             margin: 0;
         }
         h3 {
             text-align: center;
             padding-top: 5px;
-            padding-left: 25px;
-            padding-bottom: 18px;
+            padding-left: 325px;
+            padding-bottom: 70px;
             margin: 0;
         }
         details {
             text-align: left;
             color: #FFB548;
-            // left: calc(50% - 70px);
-            padding-left: 110px;
+            padding-left: 500px;
             padding-right: 18px;
+            padding-bottom: 35px;
             margin: 0;
+            font-family: "Bebas Neue";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 36px;
+            letter-spacing: 2px;
+        }
+        .detail {
+            padding-bottom: 258px;
         }
     }
 }
