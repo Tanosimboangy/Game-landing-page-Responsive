@@ -238,7 +238,15 @@ a {
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 0; } }
+    margin: 0; }
+  h5 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #FFFFFF; } }
 
 @media (min-width: 1120px) {
   h3 {
@@ -362,7 +370,7 @@ section:first-of-type {
 section:nth-of-type(2) {
   background-image: url("../img/social_back_small.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover; }
   section:nth-of-type(2) h5 {
     text-align: center;
@@ -377,9 +385,9 @@ section:nth-of-type(2) {
     margin: 0; }
   section:nth-of-type(2) .detail {
     padding-bottom: 90px;
-    padding-left: 115px; }
+    padding-left: calc(50vw - 45px); }
   section:nth-of-type(2) details {
-    text-align: center;
+    text-align: left;
     color: #FFB548;
     padding-bottom: 43px;
     margin: 0; }
@@ -405,65 +413,23 @@ section:nth-of-type(2) {
       z-index: 2; }
 
 @media (min-width: 720px) {
-  section:nth-of-type(2) {
-    background-image: url("../img/real_social_back.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    max-width: 100%; }
-  h5 {
+  section:nth-of-type(2) h5 {
     text-align: center;
     padding-top: 100px;
-    margin: 0;
-    padding-left: 0; }
-  h3 {
+    padding-left: 90px; }
+  section:nth-of-type(2) h3 {
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 40px;
-    padding-left: 0;
-    margin: 0; }
-  .detail {
-    padding-bottom: 90px; }
-  details {
+    padding-top: 15px;
+    padding-left: 130px;
+    padding-bottom: 40px; }
+  section:nth-of-type(2) .detail {
+    padding-bottom: 90px;
+    padding-left: calc(50vw - 65px); }
+  section:nth-of-type(2) details {
     text-align: center;
     color: #FFB548;
-    padding-left: 0;
     padding-bottom: 43px;
     margin: 0; } }
-
-@media (min-width: 1120px) {
-  section:nth-of-type(2) {
-    background-image: url("../img/real_social_back.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    max-width: 100%; }
-    section:nth-of-type(2) h5 {
-      text-align: center;
-      padding-top: 160px;
-      padding-left: 250px;
-      margin: 0; }
-    section:nth-of-type(2) h3 {
-      text-align: center;
-      padding-top: 5px;
-      padding-left: 325px;
-      padding-bottom: 70px;
-      margin: 0; }
-    section:nth-of-type(2) details {
-      text-align: left;
-      color: #FFB548;
-      padding-left: 500px;
-      padding-right: 18px;
-      padding-bottom: 35px;
-      margin: 0;
-      font-family: "Bebas Neue";
-      font-style: normal;
-      font-weight: bold;
-      font-size: 36px;
-      line-height: 36px;
-      letter-spacing: 2px; }
-    section:nth-of-type(2) .detail {
-      padding-bottom: 258px; } }
 
 section:nth-of-type(4) {
   background-color: #000000;
