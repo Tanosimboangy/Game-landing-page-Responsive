@@ -1,43 +1,54 @@
 body > header {
   position: relative; }
-  body > header .header_navigation {
-    display: none; }
   body > header .head_logo {
     position: absolute;
     top: 0px;
-    left: 10px; }
-  body > header form {
+    left: calc(50vw - 48%); }
+    body > header .head_logo a img {
+      max-width: 35px; }
+  body > header .header_navigation {
+    display: none; }
+  body > header .form {
     position: absolute;
     top: 18px;
-    left: 175px; }
+    left: calc(50vw + 10%); }
+  body > header details {
+    color: white; }
   body > header .menu {
     position: absolute;
-    top: 18px;
-    left: 270px; }
+    top: 23px;
+    left: calc(50vw + 36%); }
 
-@media (min-width: 1120px) {
-  body > header {
-    position: relative; }
-    body > header .header_navigation {
-      display: block;
-      color: #FFFFFF;
+@media (min-width: 720px) {
+  body > header .head_logo {
+    position: absolute;
+    top: 0px;
+    left: calc(50vw - 48%); }
+    body > header .head_logo a img {
+      max-width: 50px; }
+  body > header .header_navigation {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: calc(50vw - 15%);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white;
+    transform: translateY(-120%); }
+    body > header .header_navigation a {
+      color: white;
       text-transform: uppercase; }
-      body > header .header_navigation ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; }
-    body > header .head_logo {
-      position: absolute;
-      top: 0px;
-      left: 10px; }
-    body > header form {
-      position: absolute;
-      top: 18px;
-      left: calc(50vw - 59px); }
-    body > header .menu {
-      position: absolute;
-      top: 18px;
-      left: 270px; } }
+  body > header .menu {
+    position: absolute;
+    top: 23px;
+    left: calc(50vw - 10%); }
+  body > header .menu:hover ~ .header_navigation {
+    background-color: black;
+    transform: translateY(40%); }
+  body > header .form {
+    position: absolute;
+    top: 18px;
+    left: calc(50vw + 20%); } }
 
 main > header {
   background-image: url(../img/angelina-andreas.png);
@@ -45,18 +56,21 @@ main > header {
   background-size: cover; }
   main > header h3 {
     text-align: center;
-    padding-top: 179px; }
+    padding-top: 179px;
+    margin: 0; }
   main > header h5 {
+    margin: 0;
+    text-align: center;
     padding-top: 7px;
     padding-bottom: 12px; }
-  main > header p {
-    font-family: "Open Sans"; }
+  main > header .wrapper_button {
+    font-family: "Open Sans";
+    text-align: center; }
   main > header .history_dropdown {
     padding-top: 174px;
     text-align: left;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-left: 16px;
     padding-bottom: 49px; }
     main > header .history_dropdown ul {
       display: flex;
@@ -71,6 +85,22 @@ main > header {
           padding-right: 6px; }
         main > header .history_dropdown ul li:nth-of-type(2) ul li:nth-of-type(1) {
           margin-top: 12px; }
+
+@media (min-width: 1120px) {
+  main header h3 {
+    padding-top: 530px; }
+  main header h5 {
+    padding-top: 7px;
+    padding-bottom: 12px; }
+  main header .history_dropdown {
+    text-align: center;
+    padding-top: 174px; }
+  main header .history_dropdown {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 49px; }
+  main header .add {
+    text-align: center; } }
 
 footer {
   background-color: #000000; }
@@ -302,7 +332,9 @@ section:first-of-type {
     list-style: none;
     padding: 0;
     position: relative;
-    padding-bottom: calc(100% * 273 / 249); }
+    padding-bottom: calc(100% * 273 / 249);
+    margin-left: 16px;
+    margin-right: 16px; }
     section:first-of-type .social_images li:nth-of-type(1) {
       object-fit: cover;
       position: absolute;
@@ -385,10 +417,12 @@ section:nth-of-type(2) {
     padding-bottom: 90px;
     padding-left: calc(50vw - 45px); }
   section:nth-of-type(2) details {
+    position: relative;
     text-align: left;
     color: #FFB548;
     padding-bottom: 43px;
-    margin: 0; }
+    margin: 0;
+    padding-left: 2rem; }
     section:nth-of-type(2) details summary {
       font-family: "Bebas Neue";
       font-size: 21px;
@@ -407,32 +441,7 @@ section:nth-of-type(2) {
       border: 1px solid white;
       border-radius: 50%;
       top: .5rem;
-      left: 1rem;
-      z-index: 2; }
-  section:nth-of-type(2) details[open] > summary {
-    content: "";
-    display: block;
-    width: 1rem;
-    height: 1rem;
-    border: 1px solid white;
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
-    top: 0rem;
-    left: -2rem;
-    z-index: 1; }
-    section:nth-of-type(2) details[open] > summary section:nth-of-type(2) details {
-      position: relative; }
-    section:nth-of-type(2) details[open] > summary summary::-webkit-details-marker {
-      display: none; }
-    section:nth-of-type(2) details[open] > summary summary::before {
-      content: "";
-      position: absolute;
-      padding: .3rem;
-      border: 1px solid white;
-      border-radius: 50%;
-      top: .5rem;
-      left: 1rem;
+      left: 0;
       z-index: 2; }
 
 @media (min-width: 720px) {

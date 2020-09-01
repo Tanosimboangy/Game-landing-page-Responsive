@@ -1,53 +1,108 @@
 body > header {
     position: relative;
-    .header_navigation {
-        display: none;
-    }
     .head_logo {
         position: absolute;
         top: 0px;
-        left: 10px;
+        left: calc(50vw - 48%);
+        a {
+            img {
+                max-width: 35px;
+            }
+        }
     }
-    form {
+    .header_navigation {
+        display: none;
+    }
+    .form {
         position: absolute;
         top: 18px;
-        left: 175px;
+        left: calc(50vw + 10%);
     }
+    details {
+        color: white;
+    }
+
     .menu {
         position: absolute;
-        top: 18px;
-        left: 270px;
+        top: 23px;
+        left: calc(50vw + 36%);
     }
 }
 
-@media(min-width: 1120px) {
+
+
+@media(min-width: 720px) {
     body > header {
-        position: relative;
-        .header_navigation {
-            display: block;
-            color: #FFFFFF;
-            text-transform: uppercase;
-            ul {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-            }
-        }
         .head_logo {
             position: absolute;
             top: 0px;
-            left: 10px;
+            left: calc(50vw - 48%);
+            a {
+                img {
+                    max-width: 50px;
+                }
+            }
         }
-        form {
+        .header_navigation {
+            display: block;
             position: absolute;
-            top: 18px;
-            left: calc(50vw - 59px);
+            top: 0;
+            left: calc(50vw - 15%);
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px white;
+            transform: translateY(-120%);
+            a {
+                color: white;
+                text-transform: uppercase;
+            }
         }
         .menu {
             position: absolute;
+            top: 23px;
+            left: calc(50vw - 10%);
+        }
+        .menu:hover ~ .header_navigation {
+            background-color: black;
+            transform: translateY(40%);
+        }
+        .form {
+            position: absolute;
             top: 18px;
-            left: 270px;
+            left: calc(50vw + 20%);
         }
     }
     
 }
+
+// @media(min-width: 1120px) {
+//     body > header {
+//         position: relative;
+//         .header_navigation {
+//             display: block;
+//             color: #FFFFFF;
+//             text-transform: uppercase;
+//             ul {
+//                 display: flex;
+//                 flex-direction: row;
+//                 justify-content: space-between;
+//             }
+//         }
+//         .head_logo {
+//             position: absolute;
+//             top: 0px;
+//             left: 10px;
+//         }
+//         form {
+//             position: absolute;
+//             top: 18px;
+//             left: calc(50vw - 59px);
+//         }
+//         .menu {
+//             position: absolute;
+//             top: 18px;
+//             left: 270px;
+//         }
+//     }
+    
+// }
