@@ -40,8 +40,8 @@ body > header {
       left: 270px; } }
 
 main > header {
-  background-image: url(../Webroot/img/masthead_back.png);
-  background-repeat: no-repeat;
+  background-image: url(../img/angelina-andreas.png);
+  background-position: 50% 20%;
   background-size: cover; }
   main > header h3 {
     text-align: center;
