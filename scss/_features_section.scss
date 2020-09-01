@@ -48,11 +48,54 @@ section:nth-of-type(2) {
             border: 1px solid white;
             border-radius: 50%;
             top: .5rem;
-            left: -2rem;
+            left: 1rem;
+            z-index: 2;
+        }
+    }
+    details[open] > summary {
+        content: "";
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 0rem;
+        left: -2rem;
+        z-index: 1;
+        section:nth-of-type(2) details {
+            position: relative;
+        }
+        summary::-webkit-details-marker {
+            display: none;
+        }
+        summary::before {
+            content: "";
+            position: absolute;
+            padding: .3rem;
+            border: 1px solid white;
+            border-radius: 50%;
+            top: .5rem;
+            left: 1rem;
             z-index: 2;
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(min-width: 720px) {
     section:nth-of-type(2) {
@@ -119,7 +162,7 @@ section:nth-of-type(2) {
         }
         .detail {
             padding-bottom: 258px;
-            padding-left: calc(50vw + 0px);
+            padding-left: calc(50vw - 40px);
         }
     }
 }
