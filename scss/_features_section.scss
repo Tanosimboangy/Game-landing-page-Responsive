@@ -56,11 +56,11 @@ section:nth-of-type(2) {
 
 @media(min-width: 720px) {
     section:nth-of-type(2) {
-        // background-image: url("../img/real_social_back.png");
-        // background-repeat: no-repeat;
-        // background-position: center center;
-        // background-size: cover;
-        // max-width: 100%;
+        background-image: url("../img/feature_back.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        max-width: 100%;
     h5 {
         text-align: center;
         padding-top: 100px;
@@ -74,10 +74,10 @@ section:nth-of-type(2) {
     }
     .detail {
         padding-bottom: 90px;
-        padding-left: calc(50vw - 65px);
+        padding-left: calc(50vw - 15px);
     }
     details {
-        text-align: center;
+        text-align: left;
         color: #FFB548;
         padding-bottom: 43px;
         margin: 0;
@@ -85,59 +85,41 @@ section:nth-of-type(2) {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// @media(min-width: 1120px) {
-//     section:nth-of-type(2) {
-//         background-image: url("../img/real_social_back.png");
-//         background-repeat: no-repeat;
-//         background-position: center center;
-//         background-size: cover;
-//         max-width: 100%;
-//         h5 {
-//             text-align: center;
-//             padding-top: 160px;
-//             padding-left: 250px;
-//             margin: 0;
-//         }
-//         h3 {
-//             text-align: center;
-//             padding-top: 5px;
-//             padding-left: 325px;
-//             padding-bottom: 70px;
-//             margin: 0;
-//         }
-//         details {
-//             text-align: left;
-//             color: #FFB548;
-//             padding-left: 500px;
-//             padding-right: 18px;
-//             padding-bottom: 35px;
-//             margin: 0;
-//             font-family: "Bebas Neue";
-//             font-style: normal;
-//             font-weight: bold;
-//             font-size: 36px;
-//             line-height: 36px;
-//             letter-spacing: 2px;
-//         }
-//         .detail {
-//             padding-bottom: 258px;
-//         }
-//     }
-// }
+@media(min-width: 1120px) {
+    section:nth-of-type(2) {
+        background-image: url("../img/real_social_back.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        h5 {
+            padding-left: calc(50vw - 45px);
+            padding-top: 160px;
+            padding-left: 250px;
+            margin: 0;
+        }
+        h3 {
+            text-align: center;
+            padding-top: 5px;
+            padding-left: calc(50vw - 347px);
+            padding-bottom: 70px;
+            margin: 0;
+        }
+        details {
+            text-align: left;
+            color: #FFB548;
+            padding-right: 18px;
+            padding-bottom: 35px;
+            margin: 0;
+            font-family: "Bebas Neue";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 36px;
+            letter-spacing: 2px;
+        }
+        .detail {
+            padding-bottom: 258px;
+            padding-left: calc(50vw + 0px);
+        }
+    }
+}
