@@ -17,6 +17,20 @@ body > header {
         position: absolute;
         top: 18px;
         left: calc(50vw + 10%);
+        details {
+            summary::-webkit-details-marker {
+                display: none;
+            }
+            summary::after {
+                content: "";
+                position: absolute;
+                top: 11px;
+                right: -26px;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid white;
+            }
+        }
     }
     details {
         color: white;

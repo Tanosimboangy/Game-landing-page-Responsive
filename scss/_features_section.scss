@@ -19,6 +19,7 @@ section:nth-of-type(2) {
         margin: 0;
     }
     .detail {
+        position: relative;
         padding-bottom: 90px;
         padding-left: calc(50vw - 45px);
     }
@@ -37,9 +38,6 @@ section:nth-of-type(2) {
             letter-spacing: 2px;
             color: #FFB548;
         }
-        section:nth-of-type(2) details {
-            position: relative;
-        }
         summary::-webkit-details-marker {
             display: none;
         }
@@ -51,21 +49,24 @@ section:nth-of-type(2) {
             border-radius: 50%;
             top: .5rem;
             left: 0;
-            z-index: 2;
         }
+
     }
-    //     summary::before {
-    //         content: "";
-    //         position: absolute;
-    //         padding: .3rem;
-    //         border: 1px solid white;
-    //         border-radius: 50%;
-    //         top: .5rem;
-    //         left: 1rem;
-    //         z-index: 2;
-    //     }
-    // }
+    details:not(:last-child)::before {
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: 0.25rem;
+        border: 1px solid white;
+        height: 100%;
+    }
 }
+
+
+
+
+
+
 
 
 
@@ -104,10 +105,7 @@ section:nth-of-type(2) {
         padding-left: calc(50vw - 15px);
     }
     details {
-        text-align: left;
-        color: #FFB548;
         padding-bottom: 43px;
-        margin: 0;
         }
     }
 }
@@ -132,21 +130,20 @@ section:nth-of-type(2) {
             margin: 0;
         }
         details {
-            text-align: left;
-            color: #FFB548;
             padding-right: 18px;
             padding-bottom: 35px;
             margin: 0;
-            font-family: "Bebas Neue";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            line-height: 36px;
-            letter-spacing: 2px;
+            summary {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 36px;
+                letter-spacing: 2px;
+            }
         }
         .detail {
             padding-bottom: 258px;
-            padding-left: calc(50vw - 40px);
+            padding-left: calc(50vw - 86px);
         }
     }
 }
