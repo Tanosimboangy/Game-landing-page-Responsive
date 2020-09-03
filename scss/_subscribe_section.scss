@@ -6,7 +6,7 @@ section:nth-of-type(5) {
 
     text-align: center;
     .wrapper { 
-        margin-left: 10px;
+        margin-left: 120px;
         h5 {
             padding-top: 60px;
             padding-bottom: 5px;
@@ -22,6 +22,7 @@ section:nth-of-type(5) {
         }
     }
     ul {
+        padding-bottom: 60px;
         li {
             p {
                 margin: 0;
@@ -79,14 +80,8 @@ section:nth-of-type(5) {
              margin-left: 450px;
              h5 {
                  padding-top: 100px;
-                 padding-bottom: 5px;
-                 text-align: left;
-             }
-             h3 {
-                 text-align: left;
              }
              p {
-                text-align: left;
                 padding-bottom: 45px;
              }
          }
