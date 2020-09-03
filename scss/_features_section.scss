@@ -46,19 +46,24 @@ section:nth-of-type(2) {
             position: absolute;
             padding: .3rem;
             border: 1px solid white;
-            border-radius: 50%;
+            border-radius: 100%;
             top: .5rem;
             left: 0;
         }
-
     }
-    details:not(:last-child)::before {
+    details[open]:not(:last-child)::before {
         content: "";
         position: absolute;
+        color: white;
         top: 7px;
         left: 0.25rem;
         border: 1px solid white;
         height: 100%;
+    }
+    details[open]:not(:last-child) {
+        summary::before {
+            background-color: white;
+        }
     }
 }
 
