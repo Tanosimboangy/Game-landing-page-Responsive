@@ -44,10 +44,10 @@ section:nth-of-type(2) {
         summary::before {
             content: "";
             position: absolute;
-            padding: .3rem;
-            border: 1px solid white;
+            padding: 8px;
+            border: 2px solid white;
             border-radius: 100%;
-            top: .5rem;
+            top: 0;
             left: 0;
         }
     }
@@ -55,9 +55,9 @@ section:nth-of-type(2) {
         content: "";
         position: absolute;
         color: white;
-        top: 7px;
-        left: 0.25rem;
-        border: 1px solid white;
+        top: 0px;
+        left: 0.5rem;
+        border: 2px solid white;
         height: 100%;
     }
     details[open]:not(:last-child) {
