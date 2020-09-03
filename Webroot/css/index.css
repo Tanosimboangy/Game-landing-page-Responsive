@@ -688,7 +688,8 @@ section:nth-of-type(5) {
 
 @media (min-width: 1120px) {
   section:nth-of-type(5) {
-    background-image: url(../img/subscribe.png); }
+    background-image: url(../img/newletter_subscribe.png);
+    background-repeat: no-repeat; }
     section:nth-of-type(5) .wrapper {
       margin-left: 450px; }
       section:nth-of-type(5) .wrapper h5 {
