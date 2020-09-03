@@ -212,9 +212,7 @@ footer {
         padding: 0 1rem; } }
 
 body {
-  font-family: "Open Sans";
   margin: 0;
-  background-color: brown;
   position: relative;
   padding: 0; }
 
@@ -619,6 +617,8 @@ section:nth-of-type(4) .detail_profile article {
     padding-top: 16px; }
 
 @media (min-width: 720px) {
+  section:nth-of-type(4) p {
+    max-width: 500px; }
   section:nth-of-type(4) .detail_profile {
     text-align: left; }
     section:nth-of-type(4) .detail_profile article {
@@ -626,7 +626,8 @@ section:nth-of-type(4) .detail_profile article {
       border-radius: 10px;
       margin: 15px 0;
       border-radius: 10px;
-      max-width: 400px; }
+      max-width: 400px;
+      margin-left: 16px; }
       section:nth-of-type(4) .detail_profile article .more_information li:nth-of-type(1) {
         max-width: 390px; } }
 
@@ -662,7 +663,7 @@ section:nth-of-type(5) {
   background-image: url(./img/newletter_subscribe.png);
   text-align: center; }
   section:nth-of-type(5) .wrapper {
-    margin-left: 120px; }
+    margin-left: 10px; }
     section:nth-of-type(5) .wrapper h5 {
       padding-top: 60px;
       padding-bottom: 5px;
@@ -699,6 +700,10 @@ section:nth-of-type(5) {
     section:nth-of-type(5) ul li:nth-of-type(2) p a {
       color: #FFB548;
       opacity: 1; }
+
+@media (min-width: 720px) {
+  section:nth-of-type(5) .wrapper {
+    margin-left: 60px; } }
 
 @media (min-width: 1120px) {
   section:nth-of-type(5) {

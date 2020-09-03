@@ -6,7 +6,7 @@ section:nth-of-type(5) {
 
     text-align: center;
     .wrapper { 
-        margin-left: 120px;
+        margin-left: 10px;
         h5 {
             padding-top: 60px;
             padding-bottom: 5px;
@@ -64,9 +64,13 @@ section:nth-of-type(5) {
 }
 
 
-//  @media(min-width: 720px) {
-    
-//  }
+ @media(min-width: 720px) {
+    section:nth-of-type(5) {
+        .wrapper {
+            margin-left: 60px;
+        }
+    }
+ }
  @media(min-width: 1120px) {
      section:nth-of-type(5) {
          background-color: hsl(0, 0%, 0%);
