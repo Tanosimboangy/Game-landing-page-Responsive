@@ -35,7 +35,10 @@ body > header {
     details {
         color: white;
     }
-
+    .menu:hover ~ .header_navigation {
+        background-color: black;
+        transform: translateY(40%);
+    }
     .menu {
         position: absolute;
         top: 23px;

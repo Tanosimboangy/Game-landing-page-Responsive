@@ -31,6 +31,7 @@ section:first-of-type {
     .social_images {
         max-width: 400px;
         list-style: none;
+        display: block;
         padding: 0;
         position: relative;
         padding-bottom: calc(100% * 273 / 249);
@@ -72,8 +73,12 @@ section:first-of-type {
 
 @media(min-width: 1120px) {
     section:first-of-type {
-        // display: flex;
-        // flex-direction: row;
+        position: relative;
+        // .social_images {
+        //     position: absolute;
+        //     top: 20px;
+        //     right: 3px;
+        // }
         h5 {
             padding-top: 150px;
             padding-bottom: 5px;

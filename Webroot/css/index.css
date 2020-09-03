@@ -24,6 +24,9 @@ body > header {
       border-top: 10px solid white; }
   body > header details {
     color: white; }
+  body > header .menu:hover ~ .header_navigation {
+    background-color: black;
+    transform: translateY(40%); }
   body > header .menu {
     position: absolute;
     top: 23px;
@@ -76,6 +79,7 @@ main > header {
     text-align: center; }
   main > header .history_dropdown {
     padding-top: 174px;
+    padding-left: 10px;
     text-align: left;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -87,6 +91,7 @@ main > header {
       main > header .history_dropdown ul li:nth-of-type(2) ul {
         display: flex;
         flex-direction: row;
+        padding-right: 10px;
         justify-content: center;
         align-items: center; }
         main > header .history_dropdown ul li:nth-of-type(2) ul li {
@@ -94,7 +99,7 @@ main > header {
         main > header .history_dropdown ul li:nth-of-type(2) ul li:nth-of-type(1) {
           margin-top: 12px; }
 
-@media (min-width: 1120px) {
+@media (min-width: 720px) {
   main header h3 {
     padding-top: 530px; }
   main header h5 {
@@ -330,6 +335,7 @@ section:first-of-type {
   section:first-of-type .social_images {
     max-width: 400px;
     list-style: none;
+    display: block;
     padding: 0;
     position: relative;
     padding-bottom: calc(100% * 273 / 249);
@@ -359,28 +365,30 @@ section:first-of-type {
       border-radius: 10px; }
 
 @media (min-width: 1120px) {
-  section:first-of-type h5 {
-    padding-top: 150px;
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 0; }
-  section:first-of-type h3 {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 5px;
-    max-width: 410px; }
-  section:first-of-type ul {
-    font-family: "Open Sans";
-    text-align: justify;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    padding-left: 150px;
-    padding-top: 33px;
-    padding-right: 14px;
-    max-width: 364px; }
-    section:first-of-type ul li p {
-      color: #FFFFFF; } }
+  section:first-of-type {
+    position: relative; }
+    section:first-of-type h5 {
+      padding-top: 150px;
+      padding-bottom: 5px;
+      padding-left: 0;
+      padding-right: 0; }
+    section:first-of-type h3 {
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 5px;
+      max-width: 410px; }
+    section:first-of-type ul {
+      font-family: "Open Sans";
+      text-align: justify;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      padding-left: 150px;
+      padding-top: 33px;
+      padding-right: 14px;
+      max-width: 364px; }
+      section:first-of-type ul li p {
+        color: #FFFFFF; } }
 
 section:nth-of-type(2) {
   background-image: url("../img/social_back_small.png");
