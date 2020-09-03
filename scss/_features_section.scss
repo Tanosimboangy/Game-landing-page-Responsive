@@ -10,6 +10,7 @@ section:nth-of-type(2) {
         padding-top: 100px;
         padding-left: 75px;
         margin: 0;
+        margin-top: -83px;
     }
     h3 {
         text-align: center;
@@ -67,26 +68,6 @@ section:nth-of-type(2) {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width: 720px) {
     section:nth-of-type(2) {
         background-image: url("../img/feature_back.png");
@@ -126,6 +107,7 @@ section:nth-of-type(2) {
             padding-top: 250px;
             padding-left: 250px;
             margin: 0;
+            margin-top: -2px;
         }
         h3 {
             text-align: center;

@@ -2,7 +2,9 @@
 
 section:nth-of-type(5) {
     background-color: hsl(0, 0%, 0%);
-    background-image: url(./img/newletter_subscribe.png);
+    background-image: url(../img/newsletter_small.png);
+    background-position: initial;
+    background-repeat: no-repeat;
 
     text-align: center;
     .wrapper { 
@@ -22,6 +24,7 @@ section:nth-of-type(5) {
         }
     }
     ul {
+        margin-top: 20px;
         padding-bottom: 60px;
         li {
             p {
@@ -68,14 +71,14 @@ section:nth-of-type(5) {
  @media(min-width: 720px) {
     section:nth-of-type(5) {
         .wrapper {
-            margin-left: 60px;
+            margin-left: 200px;
         }
     }
  }
  @media(min-width: 1120px) {
      section:nth-of-type(5) {
-         background-color: hsl(0, 0%, 0%);
-         background-image: url(./img/newletter_subscribe.png);
+         background-image: url(../img/subscribe.png);
+        //  background: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%);
          .wrapper { 
              margin-left: 450px;
              h5 {
