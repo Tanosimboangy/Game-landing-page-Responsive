@@ -62,187 +62,73 @@ body header {
     }
 }
 
+
+
+
+
+
+
+
 @media(min-width: 720px) {
     body  header {
-        // .head_logo {
-            
-        // }
-        .sub-container {
-
-        }
         .details {
-        
+            details {
+                summary {
+                    font-size: 22px;
+                    padding-left: 20rem;
+                }
+            }
+        }
+        .first_icon {
+            display: block;
+            order: 3;
+        }
+        .second_icon {
+            display: block;
+            order: 4;
         }
     }
-    
 }
 
 
 
 
-// @media(min-width: 1120px) {
-//     body > header {
-//         position: relative;
-//         .header_navigation {
-//             display: block;
-//             color: #FFFFFF;
-//             text-transform: uppercase;
-//             display: block;
-//             position: absolute;
-//             top: 0;
-//             left: calc(50vw - 0);
-//             border-radius: 5px;
-//             box-shadow: none;
-//             transform: translateY(80%);
-//             ul {
-//                 display: flex;
-//                 flex-direction: row;
-//                 justify-content: space-between;
-//             }
-//         }
-//         .head_logo {
-//             position: absolute;
-//             top: 0px;
-//             left: 10px;
-//         }
-//         // form {
-//         //     position: absolute;
-//         //     top: 18px;
-//         //     left: calc(50vw - 59px);
-//         // }
-//         .menu {
-//             display: none;
-//         }
-//         .checkbox {
-//             display: none;
-//         }
-//     }
-// }
+@media(min-width: 1120px) {
+    body > header {
+        position: relative;
+        .header_navigation {
+            display: block;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: calc(50vw - 0);
+            border-radius: 5px;
+            box-shadow: none;
+            transform: translateY(80%);
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+        .head_logo {
+            position: absolute;
+            top: 0px;
+            left: 10px;
+        }
+        // form {
+        //     position: absolute;
+        //     top: 18px;
+        //     left: calc(50vw - 59px);
+        // }
+        .menu {
+            display: none;
+        }
+        .checkbox {
+            display: none;
+        }
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// body > header {
-//     position: relative;
-//     .checkbox {
-//         position: absolute;
-//         top: 19px;
-//         left: calc(50vw + 34.5%);
-//         width: 25px;
-//         height: 25px;
-//         opacity: 0;
-//     }
-//     .checkbox:checked ~ .header_navigation {
-//         background-color: rgb(0, 0, 0);
-//         transform: translateY(40%);
-//     }
-//     .header_navigation {
-//         display: block;
-//         position: absolute;
-//         top: 0;
-//         left: calc(50vw - 15%);
-//         padding: 6px;
-//         border-radius: 5px;
-//         box-shadow: 1px 1px 1px white;
-//         transform: translateY(-120%);
-//     }
-//     details {
-//         color: white;
-//     }
-//     .menu {
-//         position: absolute;
-//         top: 23px;
-//         left: calc(50vw + 36%);
-//     }
-// }
-
-
-// @media(min-width: 1120px) {
-//     body > header {
-//         position: relative;
-//         .header_navigation {
-//             display: block;
-//             color: #FFFFFF;
-//             text-transform: uppercase;
-//             display: block;
-//             position: absolute;
-//             top: 0;
-//             left: calc(50vw - 0);
-//             border-radius: 5px;
-//             box-shadow: none;
-//             transform: translateY(80%);
-//             ul {
-//                 display: flex;
-//                 flex-direction: row;
-//                 justify-content: space-between;
-//             }
-//         }
-//         .head_logo {
-//             position: absolute;
-//             top: 0px;
-//             left: 10px;
-//         }
-//         // form {
-//         //     position: absolute;
-//         //     top: 18px;
-//         //     left: calc(50vw - 59px);
-//         // }
-//         .menu {
-//             display: none;
-//         }
-//         .checkbox {
-//             display: none;
-//         }
-//     }
-    
-// }

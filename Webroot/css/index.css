@@ -44,6 +44,44 @@ body header {
     display: none;
     order: 4; }
 
+@media (min-width: 720px) {
+  body header .details details summary {
+    font-size: 22px;
+    padding-left: 20rem; }
+  body header .first_icon {
+    display: block;
+    order: 3; }
+  body header .second_icon {
+    display: block;
+    order: 4; } }
+
+@media (min-width: 1120px) {
+  body > header {
+    position: relative; }
+    body > header .header_navigation {
+      display: block;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: calc(50vw - 0);
+      border-radius: 5px;
+      box-shadow: none;
+      transform: translateY(80%); }
+      body > header .header_navigation ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+    body > header .head_logo {
+      position: absolute;
+      top: 0px;
+      left: 10px; }
+    body > header .menu {
+      display: none; }
+    body > header .checkbox {
+      display: none; } }
+
 main > header {
   background-image: url(../img/bgimage_1.jpg);
   background-position: center center;
