@@ -18,9 +18,8 @@ body header {
         justify-content: space-around;
         align-items: center;
         .head_logo {
-            margin-right: auto;
             img {
-                max-width: 50px;
+                max-width: 40px;
             }
         }
     }
@@ -38,6 +37,15 @@ body header {
         details {
             summary {
                 color: #FFFFFF;
+                font-family: "Open Sans";
+                font-size: 18px;
+                line-height: 18px;
+                text-align: center;
+                letter-spacing: 2px;
+                color: #FFFFFF;
+                margin: 0;
+                font-style: normal;
+                padding-left: 6rem;
             }
             summary::-webkit-details-marker {
                 display: none;
@@ -54,6 +62,103 @@ body header {
     }
 }
 
+@media(min-width: 720px) {
+    body  header {
+        // .head_logo {
+            
+        // }
+        .sub-container {
+
+        }
+        .details {
+        
+        }
+    }
+    
+}
+
+
+
+
+// @media(min-width: 1120px) {
+//     body > header {
+//         position: relative;
+//         .header_navigation {
+//             display: block;
+//             color: #FFFFFF;
+//             text-transform: uppercase;
+//             display: block;
+//             position: absolute;
+//             top: 0;
+//             left: calc(50vw - 0);
+//             border-radius: 5px;
+//             box-shadow: none;
+//             transform: translateY(80%);
+//             ul {
+//                 display: flex;
+//                 flex-direction: row;
+//                 justify-content: space-between;
+//             }
+//         }
+//         .head_logo {
+//             position: absolute;
+//             top: 0px;
+//             left: 10px;
+//         }
+//         // form {
+//         //     position: absolute;
+//         //     top: 18px;
+//         //     left: calc(50vw - 59px);
+//         // }
+//         .menu {
+//             display: none;
+//         }
+//         .checkbox {
+//             display: none;
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -69,16 +174,6 @@ body header {
 
 // body > header {
 //     position: relative;
-//     .head_logo {
-//         position: absolute;
-//         top: 0px;
-//         left: calc(50vw - 48%);
-//         a {
-//             img {
-//                 max-width: 35px;
-//             }
-//         }
-//     }
 //     .checkbox {
 //         position: absolute;
 //         top: 19px;
@@ -100,36 +195,6 @@ body header {
 //         border-radius: 5px;
 //         box-shadow: 1px 1px 1px white;
 //         transform: translateY(-120%);
-//         a {
-//             text-transform: uppercase;
-//             font-family: "Bebas Neue";
-//             font-size: 18px;
-//             line-height: 18px;
-//             text-align: center;
-//             letter-spacing: 2px;
-//             color: #FFFFFF;
-//             margin: 0;
-//             font-style: normal;
-//         }
-//     }
-//     .form {
-//         position: absolute;
-//         top: 18px;
-//         left: calc(50vw + 10%);
-//         details {
-//             summary::-webkit-details-marker {
-//                 display: none;
-//             }
-//             summary::after {
-//                 content: "";
-//                 position: absolute;
-//                 top: 11px;
-//                 right: -26px;
-//                 border-left: 10px solid transparent;
-//                 border-right: 10px solid transparent;
-//                 border-top: 10px solid white;
-//             }
-//         }
 //     }
 //     details {
 //         color: white;
@@ -141,28 +206,6 @@ body header {
 //     }
 // }
 
-
-
-// @media(min-width: 720px) {
-//     body > header {
-//         .head_logo {
-//             position: absolute;
-//             top: 0px;
-//             left: calc(50vw - 48%);
-//             a {
-//                 img {
-//                     max-width: 50px;
-//                 }
-//             }
-//         }
-//         .form {
-//             position: absolute;
-//             top: 20px;
-//             left: calc(50vw + 20%);
-//         }
-//     }
-    
-// }
 
 // @media(min-width: 1120px) {
 //     body > header {

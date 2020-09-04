@@ -14,10 +14,8 @@ body header {
     align-items: center;
     justify-content: space-around;
     align-items: center; }
-    body header .sub-container .head_logo {
-      margin-right: auto; }
-      body header .sub-container .head_logo img {
-        max-width: 50px; }
+    body header .sub-container .head_logo img {
+      max-width: 40px; }
   body header .menu {
     order: 2; }
   body header .header_navigation {
@@ -27,7 +25,16 @@ body header {
   body header .details {
     order: 1; }
     body header .details details summary {
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 18px;
+      line-height: 18px;
+      text-align: center;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      margin: 0;
+      font-style: normal;
+      padding-left: 6rem; }
     body header .details details summary::-webkit-details-marker {
       display: none; }
   body header .first_icon {
