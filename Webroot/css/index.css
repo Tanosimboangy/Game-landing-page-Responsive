@@ -1,80 +1,49 @@
-body > header {
+body header {
   position: relative; }
-  body > header .head_logo {
+  body header .sub-container {
+    z-index: 1;
     position: absolute;
-    top: 0px;
-    left: calc(50vw - 48%); }
-    body > header .head_logo a img {
-      max-width: 35px; }
-  body > header .checkbox {
-    position: absolute;
-    top: 19px;
-    left: calc(50vw + 34.5%);
-    width: 25px;
-    height: 25px;
-    opacity: 0; }
-  body > header .checkbox:checked ~ .header_navigation {
-    background-color: black;
-    transform: translateY(40%); }
-  body > header .header_navigation {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: calc(50vw - 15%);
-    padding: 6px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px white;
-    transform: translateY(-120%); }
-    body > header .header_navigation a {
-      text-transform: uppercase;
-      font-family: "Bebas Neue";
-      font-size: 18px;
-      line-height: 18px;
-      text-align: center;
-      letter-spacing: 2px;
-      color: #FFFFFF;
-      margin: 0;
-      font-style: normal; }
-  body > header .form {
-    position: absolute;
-    top: 18px;
-    left: calc(50vw + 10%); }
-    body > header .form details summary::-webkit-details-marker {
+    top: 15px;
+    left: 0;
+    right: 0;
+    padding-left: 10px;
+    padding-right: 10px; }
+  body header .sub-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center; }
+    body header .sub-container .head_logo {
+      margin-right: auto; }
+      body header .sub-container .head_logo img {
+        max-width: 50px; }
+  body header .menu {
+    order: 2; }
+  body header .header_navigation {
+    display: none; }
+  body header .checkbox {
+    display: none; }
+  body header .details {
+    order: 1; }
+    body header .details details summary {
+      color: #FFFFFF; }
+    body header .details details summary::-webkit-details-marker {
       display: none; }
-    body > header .form details summary::after {
-      content: "";
-      position: absolute;
-      top: 11px;
-      right: -26px;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-top: 10px solid white; }
-  body > header details {
-    color: white; }
-  body > header .menu {
-    position: absolute;
-    top: 23px;
-    left: calc(50vw + 36%); }
-
-@media (min-width: 720px) {
-  body > header .head_logo {
-    position: absolute;
-    top: 0px;
-    left: calc(50vw - 48%); }
-    body > header .head_logo a img {
-      max-width: 50px; }
-  body > header .form {
-    position: absolute;
-    top: 18px;
-    left: calc(50vw + 20%); } }
+  body header .first_icon {
+    display: none;
+    order: 3; }
+  body header .second_icon {
+    display: none;
+    order: 4; }
 
 main > header {
-  background-image: url(../img/angelina-andreas.png);
-  background-position: 50% 20%;
+  background-image: url(../img/bgimage_1.jpg);
+  background-position: center center;
   background-size: cover; }
   main > header h3 {
     text-align: center;
-    padding-top: 179px; }
+    padding-top: 229px; }
   main > header h5 {
     text-align: center;
     padding-top: 7px;
