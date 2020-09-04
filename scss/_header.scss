@@ -10,8 +10,38 @@ body > header {
             }
         }
     }
+    .checkbox {
+        position: absolute;
+        top: 19px;
+        left: calc(50vw + 34.5%);
+        width: 25px;
+        height: 25px;
+        opacity: 0;
+    }
+    .checkbox:checked ~ .header_navigation {
+        background-color: rgb(0, 0, 0);
+        transform: translateY(40%);
+    }
     .header_navigation {
-        display: none;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: calc(50vw - 15%);
+        padding: 6px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px white;
+        transform: translateY(-120%);
+        a {
+            text-transform: uppercase;
+            font-family: "Bebas Neue";
+            font-size: 18px;
+            line-height: 18px;
+            text-align: center;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+            margin: 0;
+            font-style: normal;
+        }
     }
     .form {
         position: absolute;
@@ -35,10 +65,6 @@ body > header {
     details {
         color: white;
     }
-    .menu:hover ~ .header_navigation {
-        background-color: black;
-        transform: translateY(40%);
-    }
     .menu {
         position: absolute;
         top: 23px;
@@ -59,29 +85,6 @@ body > header {
                     max-width: 50px;
                 }
             }
-        }
-        .header_navigation {
-            display: block;
-            position: absolute;
-            top: 0;
-            left: calc(50vw - 15%);
-            padding: 1rem;
-            border-radius: 5px;
-            box-shadow: 2px 2px 2px white;
-            transform: translateY(-120%);
-            a {
-                color: white;
-                text-transform: uppercase;
-            }
-        }
-        .menu {
-            position: absolute;
-            top: 23px;
-            left: calc(50vw - 10%);
-        }
-        .menu:hover ~ .header_navigation {
-            background-color: black;
-            transform: translateY(40%);
         }
         .form {
             position: absolute;

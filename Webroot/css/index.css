@@ -6,8 +6,35 @@ body > header {
     left: calc(50vw - 48%); }
     body > header .head_logo a img {
       max-width: 35px; }
+  body > header .checkbox {
+    position: absolute;
+    top: 19px;
+    left: calc(50vw + 34.5%);
+    width: 25px;
+    height: 25px;
+    opacity: 0; }
+  body > header .checkbox:checked ~ .header_navigation {
+    background-color: black;
+    transform: translateY(40%); }
   body > header .header_navigation {
-    display: none; }
+    display: block;
+    position: absolute;
+    top: 0;
+    left: calc(50vw - 15%);
+    padding: 6px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px white;
+    transform: translateY(-120%); }
+    body > header .header_navigation a {
+      text-transform: uppercase;
+      font-family: "Bebas Neue";
+      font-size: 18px;
+      line-height: 18px;
+      text-align: center;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      margin: 0;
+      font-style: normal; }
   body > header .form {
     position: absolute;
     top: 18px;
@@ -24,9 +51,6 @@ body > header {
       border-top: 10px solid white; }
   body > header details {
     color: white; }
-  body > header .menu:hover ~ .header_navigation {
-    background-color: black;
-    transform: translateY(40%); }
   body > header .menu {
     position: absolute;
     top: 23px;
@@ -39,25 +63,6 @@ body > header {
     left: calc(50vw - 48%); }
     body > header .head_logo a img {
       max-width: 50px; }
-  body > header .header_navigation {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: calc(50vw - 15%);
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px white;
-    transform: translateY(-120%); }
-    body > header .header_navigation a {
-      color: white;
-      text-transform: uppercase; }
-  body > header .menu {
-    position: absolute;
-    top: 23px;
-    left: calc(50vw - 10%); }
-  body > header .menu:hover ~ .header_navigation {
-    background-color: black;
-    transform: translateY(40%); }
   body > header .form {
     position: absolute;
     top: 18px;
@@ -367,6 +372,12 @@ section:first-of-type {
 @media (min-width: 1120px) {
   section:first-of-type {
     position: relative; }
+    section:first-of-type .social_images {
+      display: block; }
+    section:first-of-type .container ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
     section:first-of-type h5 {
       padding-top: 150px;
       padding-bottom: 5px;
@@ -383,7 +394,6 @@ section:first-of-type {
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
-      padding-left: 150px;
       padding-top: 33px;
       padding-right: 14px;
       max-width: 364px; }
