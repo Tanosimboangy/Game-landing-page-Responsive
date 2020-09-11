@@ -1,0 +1,57 @@
+// SCSS
+@mixin list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@mixin min-width-container-big {
+    max-width: 1120px;
+    margin: auto;
+}
+
+@mixin min-width-container-middle {
+    max-width: 720px;
+    margin: auto;
+}
+
+@mixin flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 10px;
+    gap: 10px;
+}
+  
+@mixin horizontal-list {
+    @include list;
+    li {
+      display: inline-block;
+      margin: {
+        left: 10px;
+        right: 10px;
+    }
+  }
+}
+nav ul {
+  @include horizontal-list;
+}
+
+// SASS
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: -2px;
+    margin-right: 2em;
+}

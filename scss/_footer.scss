@@ -1,5 +1,41 @@
 @import "variable";
 
+// @mixin base($x: 0, $y: 0, $u: none) {
+//     margin: $x;
+//     padding: $y;
+//     list-style: $u;
+// }
+
+// @mixin mix-base {
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+//     text-decoration: none;
+// }
+
+// @mixin flex {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+  
+// @mixin horizontal-list {
+//     @include list;
+//     li {
+//       display: inline-block;
+//       margin: {
+//         left: 10px;
+//         right: 10px;
+//     }
+//   }
+// }
+// nav ul {
+//   @include horizontal-list;
+// }
+
+
 footer {
     background-color: #000000;
     .first_list_footer {
